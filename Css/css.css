@@ -1,0 +1,70 @@
+html{
+    background-color: pink;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "Cuack";
+    src: url(../font.ttf);
+}
+.titulo{
+    margin-top: -1%;
+    font-size: 70px;
+    color: rgb(221, 133, 148);
+    font-family: "Cuack";
+}
+.Psyduck{
+    border-radius: 50%;
+    width: 10%;
+    height: auto;
+    justify-content: center ;
+}
+.opciones{
+    text-align: center;
+    margin-bottom: 10px;
+
+    padding: 0.5%;
+    
+    width: 30%;
+    font-size: 25px;
+    
+    
+    color: pink;
+    font-family: "Cuack";
+    
+    background-color:rgb(221, 133, 148);
+    border-color: black;
+    border-style: solid;
+    border-radius: 45px;
+}
+header{
+    text-align: center;
+    margin-bottom: 3%;
+    margin-top: 1%;
+}
+a{ 
+    color: pink;
+    text-decoration: none;
+}
+hr{
+    width: 75%;
+    position: absolute;
+    left: 12.5%;
+    border-color: rgb(221, 133, 148);
+}
+.back{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 5px;
+    color:rgb(221, 133, 148);
+}
+#list{
+    width: 45%;
+    height: auto;
+}
+#contenedor{
+    text-align: center;
+}
