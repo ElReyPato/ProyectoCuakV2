@@ -10,7 +10,6 @@ html{
     src: url(../font.ttf);
 }
 .titulo{
-    margin-top: -1%;
     font-size: 70px;
     color: rgb(221, 133, 148);
     font-family: "Cuack";
@@ -47,6 +46,7 @@ header{
 a{ 
     color: pink;
     text-decoration: none;
+
 }
 hr{
     width: 75%;
@@ -60,10 +60,6 @@ hr{
     margin-left: 20px;
     margin-top: 5px;
     color:rgb(221, 133, 148);
-}
-#list{
-    width: 45%;
-    height: auto;
 }
 #contenedor{
     text-align: center;

@@ -1,0 +1,10 @@
+#list{
+    width: 45%;
+    height: auto;
+    margin: 1%;
+}
+.titulo_h2{
+    color: rgb(221, 133, 148);
+    font-family: "Cuack";
+    font-size: 2em;
+}
