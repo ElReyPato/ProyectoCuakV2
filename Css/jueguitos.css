@@ -8,3 +8,31 @@
     font-family: "Cuack";
     font-size: 2em;
 }
+table {
+    width: 300px;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+td {
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.juegos_img {
+    width: 200px;
+    padding: 15px 50px;
+}
+
+@media (max-width: 576px) {
+    table {
+        width: 100%;
+        column-count: 1;
+        column-gap: 10px;
+    }
+    .juegos_img{
+        width: 100px;
+        padding: 0;
+    }
+}
