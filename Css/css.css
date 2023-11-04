@@ -4,6 +4,12 @@ html{
 *{
     margin: 0;
     padding: 0;
+    color: rgb(221, 133, 148);
+    font-family: "Cuack";
+}
+body{
+    width: 75%;
+    margin: 0 12.5% 0 12.5%;
 }
 @font-face {
     font-family: "Cuack";
@@ -11,11 +17,11 @@ html{
 }
 .titulo{
     font-size: 70px;
-    color: rgb(221, 133, 148);
     font-family: "Cuack";
 }
 .Psyduck{
     border-radius: 50%;
+    border: solid rgb(221, 133, 148);
     width: 10%;
     height: auto;
     justify-content: center ;
@@ -59,7 +65,6 @@ hr{
     height: 50px;
     margin-left: 20px;
     margin-top: 5px;
-    color:rgb(221, 133, 148);
 }
 #contenedor{
     text-align: center;
