@@ -1,7 +1,8 @@
 #list{
-    width: 45%;
+    width: 70%;
     height: auto;
-    margin: 1%;
+    margin: 0 auto;
+    border: solid rgb(221, 133, 148);
 }
 .titulo_h2{
     font-family: "Cuack";
@@ -38,7 +39,7 @@ td {
     }
 }
 
-.menus{
+.menus>a{
     font-size: 25px;
 }
 

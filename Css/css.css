@@ -9,7 +9,7 @@ html{
 }
 body{
     width: 75%;
-    margin: 0 12.5% 0 12.5%;
+    margin: 0 auto;
 }
 @font-face {
     font-family: "Cuack";
@@ -17,7 +17,6 @@ body{
 }
 .titulo{
     font-size: 70px;
-    font-family: "Cuack";
 }
 .Psyduck{
     border-radius: 50%;
@@ -37,7 +36,6 @@ body{
     
     
     color: pink;
-    font-family: "Cuack";
     
     background-color:rgb(221, 133, 148);
     border-color: black;
