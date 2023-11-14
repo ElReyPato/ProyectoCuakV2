@@ -11,31 +11,29 @@
 table {
     border-collapse: collapse;
     margin: 0 auto;
-}
-
+    width: 100%;
+  }
 td {
-    
-    text-align: center;
-    vertical-align: middle;
-
+  text-align: center;
+  vertical-align: middle;
 }
 
 .juegos_img {
-    border: solid rgb(221, 133, 148);
-    width: 225px;
-    margin: 15px 40px;
-    
+  border: solid rgb(221, 133, 148);
+  width: 100%; /* Ajusta el ancho según tus necesidades */
+  max-width: 225px; /* Puedes establecer un ancho máximo */
+  height: auto; /* Esto garantiza que la imagen mantenga su proporción */
+  margin: 5px auto;
+  display: block; /* Esto centra la imagen horizontalmente */
 }
 
 @media (max-width: 500px) {
     table {
-        width: 100%;
-        column-count: 1;
-        column-gap: 10px;
+        margin: 0 auto;
     }
     .juegos_img{
-        width: 100px;
-        padding: 0;
+        width: 75px;
+        margin: 5px 0;
     }
 }
 
