@@ -1,0 +1,11 @@
+@media screen and (max-width: 767px) {
+    #tablaJuegos {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Cambiar el tamaño de las columnas en pantallas más pequeñas */
+    }
+}
+
+@media screen and (max-width: 479px) {
+    #tablaJuegos {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Ajustar aún más en pantallas más pequeñas */
+    }
+}

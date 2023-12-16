@@ -2,48 +2,43 @@
     width: 70%;
     height: auto;
     margin: 0 auto;
-    border: solid rgb(221, 133, 148);
+    border: solid var(--colortexto);
 }
 .titulo_h2{
-    font-family: "Cuack";
+    font-family: var(--texto);
     font-size: 2em;
 }
-table {
-    border-collapse: collapse;
-    margin: 0 auto;
-    width: 100%;
-  }
-td {
-  text-align: center;
-  vertical-align: middle;
+
+#tablaJuegos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Columnas de tamaño mínimo de 300px */
+    grid-gap: 20px; /* Espacio entre las imágenes */
+    margin: 0 auto; /* Centrar el contenedor */
 }
 
 .juegos_img {
-  border: solid rgb(221, 133, 148);
+  border: solid var(--colortexto);
   width: 100%; /* Ajusta el ancho según tus necesidades */
   max-width: 225px; /* Puedes establecer un ancho máximo */
   height: auto; /* Esto garantiza que la imagen mantenga su proporción */
   margin: 5px auto;
-  display: block; /* Esto centra la imagen horizontalmente */
 }
 
-@media (max-width: 500px) {
-    table {
-        margin: 0 auto;
-    }
-    .juegos_img{
-        width: 75px;
-        margin: 5px 0;
-    }
+.menus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .menus>a{
     font-size: 25px;
+    padding: 5px;
 }
 
 
 /* #prueba > .videos{
-    border: solid rgb(221, 133, 148);
+    border: solid var(--colortexto);
     width: 100%;
     height: 15%;
     margin: 0 50px 0 0;

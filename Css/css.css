@@ -1,69 +1,61 @@
-html{
-    background-color: pink;
+/* -Colores estilos etc- */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Monomaniac+One&display=swap');
+:root{
+    /*Colores de prueba
+    Background: lightgreen, rgb(103, 88, 88) gris oscuro,  
+    */
+    --colorbackground:rgb(88, 88, 88);
+    --colortexto:rgb(255, 85, 67);
+    --colortexto2:white;
+    --texto: 'Monomaniac One', sans-serif;
+    --texto2: 'Josefin Sans', sans-serif;
 }
 *{
     margin: 0;
     padding: 0;
-    color: rgb(221, 133, 148);
-    font-family: "Cuack";
+    color: var(--colortexto);
+    font-family: var(--texto);
+}
+
+/* -Cosas para todos- */
+html{
+    background-color: var(--colorbackground);
 }
 body{
     width: 75%;
     margin: 0 auto;
-}
-@font-face {
-    font-family: "Cuack";
-    src: url(../font.ttf);
 }
 .titulo{
     font-size: 70px;
 }
 .Psyduck{
     border-radius: 50%;
-    border: solid rgb(221, 133, 148);
+    border: solid var(--colortexto);
     width: 10%;
+    min-width: 100px;
     height: auto;
     justify-content: center ;
 }
-.opciones{
-    text-align: center;
-    margin-bottom: 10px;
 
-    padding: 0.5%;
-    
-    width: 30%;
-    font-size: 25px;
-    
-    
-    color: pink;
-    
-    background-color:rgb(221, 133, 148);
-    border-color: black;
-    border-style: solid;
-    border-radius: 45px;
-}
-header{
-    text-align: center;
-    margin-bottom: 3%;
-    margin-top: 1%;
-}
-a{ 
-    color: pink;
-    text-decoration: none;
-
-}
-hr{
-    width: 75%;
-    position: absolute;
-    left: 12.5%;
-    border-color: rgb(221, 133, 148);
-}
 .back{
     width: 50px;
     height: 50px;
     margin-left: 20px;
     margin-top: 5px;
 }
+
 #contenedor{
     text-align: center;
+}
+
+/* -Cabecera- */
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px 0;
+}
+a{
+    text-decoration: none;
 }
