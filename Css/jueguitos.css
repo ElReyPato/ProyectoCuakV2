@@ -1,7 +1,7 @@
 #list{
     width: 70%;
     height: auto;
-    margin: 0 auto;
+    margin: 20px auto;
     border: solid var(--colortexto);
 }
 .titulo_h2{
@@ -13,7 +13,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Columnas de tamaño mínimo de 300px */
     grid-gap: 20px; /* Espacio entre las imágenes */
-    margin: 0 auto; /* Centrar el contenedor */
+    margin: 20px auto; /* Centrar el contenedor */
 }
 
 .juegos_img {
