@@ -5,7 +5,7 @@
     Background: lightgreen, rgb(103, 88, 88) gris oscuro,  
     */
     --colorbackground:rgb(88, 88, 88);
-    --colortexto:rgb(255, 85, 67);
+    --colortexto: #FFBEBE;
     --colortexto2:white;
     --texto: 'Monomaniac One', sans-serif;
     --texto2: 'Josefin Sans', sans-serif;
