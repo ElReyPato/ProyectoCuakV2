@@ -9,25 +9,11 @@
     font-size: 2em;
 }
 
-#Juegostabla{
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-    flex-wrap: wrap;
-}
-#Juegostabla *{
-    margin: 0 50px;
-    
-    
-}
-
 #tablaJuegos {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Columnas de tamaño mínimo de 300px */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Columnas de tamaño mínimo de 300px */
     grid-gap: 20px; /* Espacio entre las imágenes */
-    margin: 20px auto; /* Centrar el contenedor */
+
 }
 
 .juegos_img {
