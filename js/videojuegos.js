@@ -71,7 +71,7 @@ function agregarjuego(){
         <h2>${VJ1.nombre}</h2>
         <h2>${VJ2.nombre}</h2>
         <h2>${VJ3.nombre}</h2>
-        <a href="${VJ1.url}"><img class="juegos_img" src="${VJ1.imagen}" alt=""></a>
+        <a href="${VJ1.url}"><img class="juegos_img" src=${VJ1.imagen} alt=""></a>
         <img class="juegos_img" src="${VJ2.imagen}" alt="">
         <img class="juegos_img" src="${VJ3.imagen}" alt="">
 
