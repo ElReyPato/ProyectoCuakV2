@@ -68,27 +68,52 @@ function agregarjuego(){
     TablaJuegos.innerHTML =
     `
     <div id="tablaJuegos">
-        <h2>${VJ1.nombre}</h2>
-        <h2>${VJ2.nombre}</h2>
-        <h2>${VJ3.nombre}</h2>
-        <a href="${VJ1.url}"><img class="juegos_img" src=${VJ1.imagen} alt=""></a>
-        <img class="juegos_img" src="${VJ2.imagen}" alt="">
-        <img class="juegos_img" src="${VJ3.imagen}" alt="">
+        <div>
+            <h2>${VJ1.nombre}</h2>
+            <a href="${VJ1.url}"><img class="juegos_img" src=${VJ1.imagen} alt=""></a>
+        </div>
 
-        <h2>${VJ4.nombre}</h2>
-        <h2>${VJ5.nombre}</h2>
-        <h2>${VJ6.nombre}</h2>
-        <img class="juegos_img" src="${VJ4.imagen}" alt="">
-        <img class="juegos_img" src="${VJ5.imagen}" alt="">
-        <img class="juegos_img" src="${VJ6.imagen}" alt="">
+        <div>
+            <h2>${VJ2.nombre}</h2>
+            <img class="juegos_img" src="${VJ2.imagen}" alt="">
+        </div>
+        
+        <div>
+            <h2>${VJ3.nombre}</h2>
+            <img class="juegos_img" src="${VJ3.imagen}" alt="">
+        </div>
+
+        <div>
+            <h2>${VJ4.nombre}</h2>
+            <img class="juegos_img" src="${VJ4.imagen}" alt="">
+        </div>
+
+        <div>
+            <h2>${VJ5.nombre}</h2>
+            <img class="juegos_img" src="${VJ5.imagen}" alt="">
+        </div>
+
+        <div>
+            <h2>${VJ6.nombre}</h2>
+            <img class="juegos_img" src="${VJ6.imagen}" alt="">
+        </div>
 
         
-        <h2>${VJ7.nombre}</h2>
-        <h2>${VJ8.nombre} %100</h2>
-        <h2>${VJ9.nombre}</h2>
-        <img class="juegos_img" src="${VJ7.imagen}" alt="">
-        <img class="juegos_img" src="${VJ8.imagen}" alt="">
-        <img class="juegos_img" src="${VJ9.imagen}" alt="">
+        <div>
+            <h2>${VJ7.nombre}</h2>
+            <img class="juegos_img" src="${VJ7.imagen}" alt="">
+        </div>
+
+        <div>
+            <h2>${VJ8.nombre} %100</h2>
+            <img class="juegos_img" src="${VJ8.imagen}" alt="">
+        </div>
+
+        <div>
+            <h2>${VJ9.nombre}</h2>
+            <img class="juegos_img" src="${VJ9.imagen}" alt="">
+        </div>
+    
     </div>
     
     ` 
