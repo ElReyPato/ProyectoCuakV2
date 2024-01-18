@@ -1,0 +1,110 @@
+[
+    {
+        "nombre": "Assassin's Creed: Unity",
+        "imagen": "https://howlongtobeat.com/games/Assassinscreedunity.jpg",
+        "url": "https://store.steampowered.com/app/289650/Assassins_Creed_Unity/",
+        "plataforma": [
+            "PC",
+            "Steam"
+        ]
+    },
+    {
+        "nombre": "Bloody Hell",
+        "imagen": "https://howlongtobeat.com/games/123273_Bloody_Hell.jpg",
+        "url": "https://store.steampowered.com/app/2056220/Bloody_Hell/",
+        "plataforma": [
+            "PC",
+            "Steam"
+        ]
+    },
+    {
+        "nombre": "Carrion",
+        "imagen": "https://howlongtobeat.com/games/68169_Carrion.jpg",
+        "url": "https://store.steampowered.com/app/953490/CARRION/",
+        "plataforma": [
+            "PC",
+            "Steam"
+        ]
+    },
+    {
+        "nombre": "Cuphead",
+        "imagen": "https://howlongtobeat.com/games/cuphead-250.jpg",
+        "url": "https://store.steampowered.com/app/268910/Cuphead/",
+        "plataforma": [
+            "PC",
+            "Steam"
+        ]
+    },
+    {
+        "nombre": "Digimon Story Cyber Sleuth",
+        "imagen": "https://howlongtobeat.com/games/71310_Digimon_Story_Cyber_Sleuth_Complete_Edition.jpg",
+        "url": "https://store.steampowered.com/app/1042550/Digimon_Story_Cyber_Sleuth_Complete_Edition/",
+        "plataforma": [
+            "PC",
+            "Steam"
+        ]
+    },
+    {
+        "nombre": "Dragon Ball FighterZ",
+        "imagen": "https://howlongtobeat.com/games/48211_Dragon_Ball_FighterZ.jpg",
+        "url": "https://store.steampowered.com/app/678950/DRAGON_BALL_FighterZ/",
+        "plataforma": [
+            "PC",
+            "Steam"
+        ]
+    },
+    {
+        "nombre": "Hades",
+        "imagen": "https://howlongtobeat.com/games/62941_Hades.jpg",
+        "url": "https://store.steampowered.com/app/1145360/Hades/",
+        "plataforma": [
+            "PC",
+            "Steam"
+        ]
+    },
+    {
+        "nombre": "Hollow Knight",
+        "imagen": "https://howlongtobeat.com/games/Hollow_Knight_collection_branding.jpg",
+        "url": "https://store.steampowered.com/app/367520/Hollow_Knight/",
+        "plataforma": [
+            "PC",
+            "Steam"
+        ]
+    },
+    {
+        "nombre": "Jump Force",
+        "imagen": "https://howlongtobeat.com/games/57522_Jump_Force.jpg",
+        "url": "https://store.steampowered.com/app/816020/JUMP_FORCE/",
+        "plataforma": [
+            "PC",
+            "Steam"
+        ]
+    },
+     {
+        "nombre": "Katana Zero",
+        "imagen": "https://howlongtobeat.com/games/33020_Katana_ZERO.jpg",
+        "url": "https://store.steampowered.com/app/460950/Katana_ZERO/",
+        "plataforma": [
+            "PC",
+            "Steam"
+        ]
+    },
+     {
+        "nombre": "Marvel vs. Capcom: Infinite",
+        "imagen": "https://howlongtobeat.com/games/44114_Marvel_vs_Capcom_Infinite.png",
+        "url": "https://store.steampowered.com/app/493840/Marvel_vs_Capcom_Infinite/",
+        "plataforma": [
+            "PC",
+            "Steam"
+        ]
+    },
+     {
+        "nombre": "Monster Hunter: World",
+        "imagen": "https://howlongtobeat.com/games/52493_Monster_Hunter_World.jpg",
+        "url": "https://store.steampowered.com/app/582010/Monster_Hunter_World/",
+        "plataforma": [
+            "PC",
+            "Steam"
+        ]
+    }
+]
