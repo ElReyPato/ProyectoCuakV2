@@ -61,6 +61,27 @@ let VJ9 = {
     "plataforma":["PC",
                   "Steam"]
 }
+let VJ10 = {
+    "nombre": "Katana Zero",
+    "imagen": "https://howlongtobeat.com/games/33020_Katana_ZERO.jpg",
+    "url": "https://store.steampowered.com/app/460950/Katana_ZERO/",
+    "plataforma":["PC",
+                  "Steam"]
+}
+let VJ11 = {
+    "nombre": "Marvel vs. Capcom: Infinite",
+    "imagen": "https://howlongtobeat.com/games/44114_Marvel_vs_Capcom_Infinite.png",
+    "url": "https://store.steampowered.com/app/493840/Marvel_vs_Capcom_Infinite/",
+    "plataforma":["PC",
+                  "Steam"]
+}
+let VJ12 = {
+    "nombre": "Monster Hunter: World",
+    "imagen": "https://howlongtobeat.com/games/52493_Monster_Hunter_World.jpg",
+    "url": "https://store.steampowered.com/app/582010/Monster_Hunter_World/",
+    "plataforma":["PC",
+                  "Steam"]
+}
 
 const TablaJuegos = document.getElementById('tablaJuegos');
 
@@ -114,6 +135,21 @@ function agregarjuego(){
             <img class="juegos_img" src="${VJ9.imagen}" alt="">
         </div>
     
+        <div>
+            <h2>${VJ10.nombre}</h2>
+            <img class="juegos_img" src="${VJ10.imagen}" alt="">
+        </div>
+
+        <div>
+            <h2>${VJ11.nombre} %100</h2>
+            <img class="juegos_img" src="${VJ11.imagen}" alt="">
+        </div>
+
+        <div>
+            <h2>${VJ12.nombre}</h2>
+            <img class="juegos_img" src="${VJ12.imagen}" alt="">
+        </div>
+
     </div>
     
     ` 
