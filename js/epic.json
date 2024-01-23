@@ -1,0 +1,11 @@
+[
+    {
+        "nombre": "Alien: Isolation",
+        "imagen": "https://howlongtobeat.com/games/Alien_Isolation.jpg",
+        "url": "https://store.epicgames.com/es-ES/p/alien-isolation",
+        "plataforma": [
+            "PC",
+            "EpicGames"
+        ]
+    }
+]

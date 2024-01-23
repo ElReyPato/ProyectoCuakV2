@@ -9,7 +9,7 @@
     font-size: 2em;
 }
 
-#tablaJuegos {
+.tablaJuegos {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Columnas de tamaño mínimo de 300px */
     grid-gap: 20px; /* Espacio entre las imágenes */
