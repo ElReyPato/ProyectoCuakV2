@@ -1,0 +1,7 @@
+.Psyduck {
+    transition: transform 1.2s ease; /* Agregamos una transición para suavizar la animación */
+}
+
+.Psyduck:hover {
+    transform: rotate(360deg);
+}

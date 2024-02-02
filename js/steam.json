@@ -106,5 +106,32 @@
             "PC",
             "Steam"
         ]
+    },
+    {
+        "nombre": "Palworld",
+        "imagen": "https://howlongtobeat.com/games/102201_Palworld.jpg",
+        "url": "https://store.steampowered.com/app/1623730/Palworld/",
+        "plataforma": [
+            "PC",
+            "Steam"
+        ]
+    },
+    {
+        "nombre": "Party Hard",
+        "imagen": "https://howlongtobeat.com/games/Party_Hard_header.jpg",
+        "url": "https://store.steampowered.com/app/356570/Party_Hard/",
+        "plataforma": [
+            "PC",
+            "Steam"
+        ]
+    },
+    {
+        "nombre": "Project Warlock",
+        "imagen": "https://howlongtobeat.com/games/48457_Project_Warlock.jpg",
+        "url": "https://store.steampowered.com/app/893680/Project_Warlock/",
+        "plataforma": [
+            "PC",
+            "Steam"
+        ]
     }
 ]

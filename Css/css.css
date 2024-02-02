@@ -1,5 +1,9 @@
 /* -Colores estilos etc- */
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Monomaniac+One&display=swap');
+@font-face {
+    font-family: 'unown';
+    src: url(../fonts/Unown-GB.ttf);
+}
 :root{
     /*Colores de prueba
     Background: lightgreen, rgb(103, 88, 88) gris oscuro,  
