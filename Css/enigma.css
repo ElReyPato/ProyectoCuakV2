@@ -1,0 +1,26 @@
+.encabezado{
+    font-family: 'unown';
+    font-size: 20px;
+    text-align: center;
+    }
+    #formularioContraseña{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-family: 'unown';
+    }
+    #formularioContraseña input[type='text']{
+        width: 300px;
+        font-family: 'unown';
+        font-size: 20px;
+        text-align: center;
+        background: none;
+    }
+    #formularioContraseña input[type='submit']{
+        width: 150;
+        padding: 5px;
+        font-size: 20px;
+        text-align: center;
+        background: none;
+        border: none;
+    }

@@ -7,13 +7,15 @@
 .titulo_h2{
     font-family: var(--texto);
     font-size: 2em;
+    list-style: none;
+    margin-bottom: 15px;
 }
 
 .tablaJuegos {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Columnas de tamaño mínimo de 300px */
     grid-gap: 20px; /* Espacio entre las imágenes */
-
+    margin-bottom: 15px;
 }
 
 .juegos_img {

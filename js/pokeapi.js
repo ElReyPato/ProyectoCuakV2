@@ -54,13 +54,16 @@ const main = async () => {
         const newContainer = document.createElement('div');
         newContainer.id = containerId;
         newContainer.classList.add('pokemon-container');
-        document.body.appendChild(newContainer);
+
+        // Adjunta el contenedor al div con id "equipos"
+        document.getElementById('equipos').appendChild(newContainer);
 
         await mostrarEquipoEnHTML(equiposPokemon[i], nombresEquipos[i], containerId);
     }
 };
 
 main();
+
 
 function premio() {
     let contador = 0;

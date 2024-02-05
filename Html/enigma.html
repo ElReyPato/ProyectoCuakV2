@@ -8,34 +8,7 @@
     <link rel="stylesheet" href="../Css/enigma.css">
     <link rel="stylesheet" href="../Css/medias.css">
     <title>Jueguitos</title>
-    <style>
-        .encabezado{
-        font-family: 'unown';
-        font-size: 20px;
-        text-align: center;
-        }
-        #formularioContraseña{
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-            font-family: 'unown';
-        }
-        #formularioContraseña input[type='text']{
-            width: 300px;
-            font-family: 'unown';
-            font-size: 20px;
-            text-align: center;
-            background: none;
-        }
-        #formularioContraseña input[type='submit']{
-            width: 150;
-            padding: 5px;
-            font-size: 20px;
-            text-align: center;
-            background: none;
-            border: none;
-        }
-    </style>
+
 </head>
 <body>
     <!-- -Icono de boton para atrás- -->
@@ -46,7 +19,7 @@
         </svg>
     </a>
       
-    <!-- Header (Imagen, Titulo, Menu(Nintendo, Steam, Epic)) -->
+
     <header>
         <img class="Psyduck" src="../img/Psyduck.png">
         <h1 class="titulo">¿?</h1><br>
@@ -56,8 +29,9 @@
 
     <form action="#" id="formularioContraseña">
         <input type="text" id="contraseña" name="contraseña" required>
-        <input type="submit" value="Enviar">
+        <input type="submit" value="Enviar" onclick="obtenerValorFormulario()">
     </form>
+    <script src="../js/enigma.js"></script>
 
 </body>
 </html>
