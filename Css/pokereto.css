@@ -1,0 +1,60 @@
+main{
+    display: flex;
+}
+#reglas{
+    margin-left: 50px;
+}
+#reglas h1{
+    text-align: center;
+}
+#reglas li{
+    font-size: 20px;
+}
+#tienda{
+    width: 75%;
+    margin-left: 11cm;
+    margin-top: -2cm;
+}
+#tienda ul{
+    list-style: none;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas de igual ancho */
+    grid-gap: 50px;
+
+}
+#tienda ul li{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+
+    padding: 5px;
+    border: solid 2px grey;
+    border-radius: 20px;
+}
+#tienda li img{
+   width: 40px; 
+}
+#moneda{
+    display: flex;
+    align-items: center;
+}
+#torneos{
+    position: absolute;
+    top: 25cm;
+}
+#torneos h1{
+    font-size: 50px;
+    font-weight: lighter
+    
+}
+#torneos h1:hover a{
+    display: block;
+}
+#torneos a{
+    font-size: 20px;
+    display: none;
+}

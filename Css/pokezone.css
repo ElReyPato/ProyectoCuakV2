@@ -34,11 +34,15 @@ details{
     padding: 15px;
     border-top: none;
     border-bottom: none;
-    border-radius: 10px;
+    border-radius: 7px;
 }
 .equipos{
     font-size: 35px;
     text-align: center;
     list-style: none;
 
+}
+a h1{
+  text-align: center;
+  font-weight: normal;
 }
