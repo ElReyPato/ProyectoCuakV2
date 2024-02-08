@@ -1,5 +1,5 @@
 const fetchPokemon = async (nombre) => {
-    const url = `https://pokeapi.co/api/v2/pokemon/${nombre}/`;
+    const url = `https://pokeapi.co/api/v2/pokemon${nombre}/`;
     const response = await fetch(url);
 
     if (response.ok) {
@@ -53,60 +53,30 @@ const mostrarEquipoEnHTML = async (equipo, nombreEquipo, containerId) => {
 
 const main = async () => {
     const equiposPokemon = [
-        [   "ribombee", "frosmoth", "kakuna", "scyther", "galvantula", "larvesta",
-            "lucario-mega","zacian", "scolipede", "latias", "poliwrath", "feraligatr",
-            "nidoran-f", "sunkern", "larvesta", "latias", "poliwrath", "feraligatr",
-            "archaludon", "pelipper", "raging-bolt", "galvantula", "poliwrath", "feraligatr",
-            "archaludon", "pelipper", "raging-bolt", "latias", "scyther", "kakuna"],
+        [   "/ribombee", "/frosmoth", "/kakuna", "/scyther", "/galvantula", "/larvesta",
+            "/lucario-mega","/zacian", "/scolipede", "/ceruledge", "/overqwil", "/coalossal",
+            "/nidoran-f", "/sunkern", "/wynaut", "-form/10023", "/illumise", "/volbeat",
+            "/mantine", "/furfrou", "/castform", "/vivillon", "/cyclizar", "/kecleon",
+            "/dialga", "/mawile-mega", "/pachirisu", "/sandslash-alola", "/avalugg-hisui", "/glimmora"],
 
-            [   "archaludon", "pelipper", "raging-bolt", "latias", "poliwrath", "feraligatr",
-            "archaludon","pelipper", "raging-bolt", "latias", "poliwrath", "feraligatr",
-            "archaludon", "pelipper", "raging-bolt", "latias", "poliwrath", "feraligatr",
-            "archaludon", "pelipper", "raging-bolt", "latias", "poliwrath", "feraligatr",
-            "archaludon", "pelipper", "raging-bolt", "latias", "poliwrath", "feraligatr"],
-
-            [   "archaludon", "pelipper", "raging-bolt", "latias", "poliwrath", "feraligatr",
-            "archaludon","pelipper", "raging-bolt", "latias", "poliwrath", "feraligatr",
-            "archaludon", "pelipper", "raging-bolt", "latias", "poliwrath", "feraligatr",
-            "archaludon", "pelipper", "raging-bolt", "latias", "poliwrath", "feraligatr",
-            "archaludon", "pelipper", "raging-bolt", "latias", "poliwrath", "feraligatr"],
-
-            [   "archaludon", "pelipper", "raging-bolt", "latias", "poliwrath", "feraligatr",
-            "archaludon","pelipper", "raging-bolt", "latias", "poliwrath", "feraligatr",
-            "archaludon", "pelipper", "raging-bolt", "latias", "poliwrath", "feraligatr",
-            "archaludon", "pelipper", "raging-bolt", "latias", "poliwrath", "feraligatr",
-            "archaludon", "pelipper", "raging-bolt", "latias", "poliwrath", "feraligatr"],
-
-            [   "archaludon", "pelipper", "raging-bolt", "latias", "poliwrath", "feraligatr",
-            "archaludon","pelipper", "raging-bolt", "latias", "poliwrath", "feraligatr",
-            "archaludon", "pelipper", "raging-bolt", "latias", "poliwrath", "feraligatr",
-            "archaludon", "pelipper", "raging-bolt", "latias", "poliwrath", "feraligatr",
-            "archaludon", "pelipper", "raging-bolt", "latias", "poliwrath", "feraligatr"],
-
-            [   "archaludon", "pelipper", "raging-bolt", "latias", "poliwrath", "feraligatr",
-            "archaludon","pelipper", "raging-bolt", "latias", "poliwrath", "feraligatr",
-            "archaludon", "pelipper", "raging-bolt", "latias", "poliwrath", "feraligatr",
-            "archaludon", "pelipper", "raging-bolt", "latias", "poliwrath", "feraligatr",
-            "archaludon", "pelipper", "raging-bolt", "latias", "poliwrath", "feraligatr"],
-
-            [   "archaludon", "pelipper", "raging-bolt", "latias", "poliwrath", "feraligatr",
-            "archaludon","pelipper", "raging-bolt", "latias", "poliwrath", "feraligatr",
-            "archaludon", "pelipper", "raging-bolt", "latias", "poliwrath", "feraligatr",
-            "archaludon", "pelipper", "raging-bolt", "latias", "poliwrath", "feraligatr",
-            "archaludon", "pelipper", "raging-bolt", "latias", "poliwrath", "feraligatr"],
-
-            [   "archaludon", "pelipper", "raging-bolt", "latias", "poliwrath", "feraligatr",
-            "archaludon","pelipper", "raging-bolt", "latias", "poliwrath", "feraligatr",
-            "archaludon", "pelipper", "raging-bolt", "latias", "poliwrath", "feraligatr",
-            "archaludon", "pelipper", "raging-bolt", "latias", "poliwrath", "feraligatr",
-            "archaludon", "pelipper", "raging-bolt", "latias", "poliwrath", "feraligatr"],
+            ["/stoutland", "/wimpod", "/shroomish", "/ludicolo", "/jellicent", "/varoom",
+            "/chingling","/capsakid", "/duraludon", "/muk-alola", "/baxcalibur", "/torterra",
+            "/buizel", "/poipole", "/slaking", "/dodrio", "/illumise", "/tropius",
+            "/scatterbug", "/darmanitan-galar-standard", "/froslass", "/shiinotic", "/gible", "/flaaffy",
+            "/chikorita", "/piloswine", "/zygarde-complete", "/doublade", "/dragonite", "/azurill"],
+            
+            ["/servine", "/audino", "/thievul", "/sandaconda", "/dustox", "/pansage",
+            "/spearow","/munna", "/bayleef", "/pineco", "/xatu", "/hippowdon",
+            "/jumpluff", "/wugtrio", "/delibird", "/torracat", "/gligar", "/boldore",
+            "/scrafty", "/chandelure", "/zebstrika", "/aurorus", "/seismitoad", "/kubfu",
+            "/zarude", "/enamorus-incarnate", "/perrserker", "/espathra", "/komala", "/starmie"],
         // Agrega más equipos según sea necesario
     ];
 
     const nombresEquipos = [
-        "1º Equipo",
-        "2º Equipo",
-        "3º Equipo",
+        "LOS BOMBEROS",
+        "THE BASIC",
+        "FUKING 5º",
         "4º Equipo",
         "5º Equipo",
         "6º Equipo",

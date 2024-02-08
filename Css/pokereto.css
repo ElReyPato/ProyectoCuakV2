@@ -69,11 +69,9 @@ article, section {
 
 .pokemon-container details  {
     text-align: center;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    
     border: solid 5px #121212;
+    margin: 5px 0;
+    padding: 5px auto;
 }
 
 .pokemon-card{
@@ -83,16 +81,19 @@ article, section {
 }
 
 .pokemon-card img{
-    width: 75px;
+    width: 100px;
 }
-/* Que estructura estas generando con JS? */
-
-/* Estructura
-cajas > .pokemon-container > details > .pokemon-card/el texto de 1º team */
 
 #cajas section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
     padding: 1rem 0;
+}
+#cajas section *{
+    justify-self: center;
+    font-weight: lighter;
+}
+
+summary{
+    font-size: 25px;
 }
