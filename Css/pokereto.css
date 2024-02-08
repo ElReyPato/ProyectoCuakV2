@@ -64,3 +64,35 @@ article, section {
     display: flex;
     flex-direction: column;
 }
+
+/* -- Subastas -- */
+
+.pokemon-container details  {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    border: solid 5px #121212;
+}
+
+.pokemon-card{
+    text-align: center;
+    width: 150px;
+    margin: 5px;
+}
+
+.pokemon-card img{
+    width: 75px;
+}
+/* Que estructura estas generando con JS? */
+
+/* Estructura
+cajas > .pokemon-container > details > .pokemon-card/el texto de 1º team */
+
+#cajas section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem 0;
+}
