@@ -1,27 +1,17 @@
 main{
-    display: flex;
+    display: block;
 }
 #reglas{
     margin-left: 50px;
+    font-size: 17px;
 }
-#reglas h1{
-    text-align: center;
-}
-#reglas li{
-    font-size: 20px;
-}
-#tienda{
-    width: 75%;
-    margin-left: 11cm;
-    margin-top: -2cm;
-}
+
 #tienda ul{
     list-style: none;
     font-size: 20px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columnas de igual ancho */
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 50px;
-
 }
 #tienda ul li{
     display: flex;
@@ -31,7 +21,6 @@ main{
     justify-content: space-between;
     text-align: center;
 
-    padding: 5px;
     border: solid 2px grey;
     border-radius: 20px;
 }
@@ -42,14 +31,11 @@ main{
     display: flex;
     align-items: center;
 }
-#torneos{
-    position: absolute;
-    top: 25cm;
-}
+
 #torneos h1{
     font-size: 50px;
-    font-weight: lighter
-    
+    font-weight: lighter;
+    margin-bottom: 15px;
 }
 #torneos h1:hover a{
     display: block;
@@ -57,4 +43,11 @@ main{
 #torneos a{
     font-size: 20px;
     display: none;
+}
+article, section {
+    display: flex;
+}
+.shop{
+    display: flex;
+    flex-direction: column;
 }

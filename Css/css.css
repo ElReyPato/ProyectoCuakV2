@@ -6,10 +6,10 @@
 }
 :root{
     /*Colores de prueba
-    Background: lightgreen, rgb(103, 88, 88) gris oscuro,  
+    Background: lightgreen, rgb(103, 88, 88) gris oscuro, rgb(88, 88, 88)
     COlor texto variante #FF014A,
     */
-    --colorbackground:rgb(88, 88, 88);
+    --colorbackground: #212121;
     --colortexto: rgb(255, 85, 67);;
     --colortexto2:white;
     --texto: 'Monomaniac One', sans-serif;
