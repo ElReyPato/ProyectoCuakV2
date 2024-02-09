@@ -50,7 +50,7 @@ const mostrarEquipoEnHTML = async (equipo, nombreEquipo, containerId) => {
 
             if(base <= 336){
                 nombre.classList.add('green')
-            }else if(base <= 474){
+            }else if(base <= 475){
                 nombre.classList.add('blue')
             }else if(base <= 579){
                 nombre.classList.add('yellow')
