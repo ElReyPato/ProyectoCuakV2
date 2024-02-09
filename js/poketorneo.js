@@ -29,12 +29,35 @@ const mostrarEquipoEnHTML = async (equipo, nombreEquipo, containerId) => {
     for (const nombrePokemon of equipo) {
         const pokemon = await fetchPokemon(nombrePokemon);
 
+        // const base = pokemon.stats[0].base_stat + pokemon.stats[1].base_stat;
+        // console.log(base);
+
+        let base = 0; // Inicializar la variable base como 0
+
+        if (pokemon && pokemon.stats && pokemon.stats.length >= 6) {
+            base = pokemon.stats[0].base_stat + pokemon.stats[1].base_stat +
+                   pokemon.stats[2].base_stat + pokemon.stats[3].base_stat +
+                   pokemon.stats[4].base_stat + pokemon.stats[5].base_stat 
+                   ;
+        }
+        console.log(base);
         if (pokemon) {
             const pokemonCard = document.createElement('div');
             pokemonCard.classList.add('pokemon-card');
 
             const nombre = document.createElement('h3');
             nombre.textContent = pokemon.name.charAt(0).toUpperCase() + pokemon.name.slice(1);
+
+            if(base <= 336){
+                nombre.classList.add('green')
+            }else if(base <= 474){
+                nombre.classList.add('blue')
+            }else if(base <= 579){
+                nombre.classList.add('yellow')
+            }else{
+                nombre.classList.add('red')
+            }
+ 
 
             const sprite = document.createElement('img');
             sprite.src = pokemon.sprites.front_default;
