@@ -94,6 +94,12 @@ const main = async () => {
             "-form/silvally-dark", "/geodude", "/iron-leaves", "/seviper", "/archaludon", "/stakataka",
             "/iron-jugulis", "/fraxure", "/poliwrath", "/gimmighoul", "/koffing", "/poliwhirl",
             "/landorus-therian", "/whiscash", "/toxtricity-amped", "/cufant", "/gossifleur", "/giratina-altered"],
+
+            ["/hawlucha", "/politoed", "/ducklett", "/poliwrath", "/miraidon", "/klink",
+            "/mr-mime-galar","/panpour", "/cetitan", "/vanillite", "/regieleki", "/tinkatuff",
+            "/wigglytuff", "/barboach", "/skuntank", "/squirtle", "/ludicolo", "/noctowl",
+            "-form/arceus-ice", "/revavroom", "/glaceon", "/huntail", "/shelgon", "/thundurus-therian",
+            "/chinchou", "/vigoroth", "/dragapult", "/tapu-bulu", "/pawmot", "/shiinotic"]
         // Agrega más equipos según sea necesario
     ];
 
@@ -105,7 +111,7 @@ const main = async () => {
         "NOVEDADES",
         "JEJE GOD",
         "LOS MARIJUANAS",
-        "8º Equipo"
+        "RAYOS Y CENTELLAS"
         // Agrega más nombres de equipos según sea necesario
     ];
 
