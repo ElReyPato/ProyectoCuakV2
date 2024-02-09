@@ -70,6 +70,30 @@ const main = async () => {
             "/jumpluff", "/wugtrio", "/delibird", "/torracat", "/gligar", "/boldore",
             "/scrafty", "/chandelure", "/zebstrika", "/aurorus", "/seismitoad", "/kubfu",
             "/zarude", "/enamorus-incarnate", "/perrserker", "/espathra", "/komala", "/starmie"],
+
+            ["/pidgeotto", "/garbodor", "/zarude", "/carracosta", "/jolteon", "/tyrunt",
+            "/bellsprout","/tropius", "/ferroseed", "/lugia", "/forretress", "/alcremie-gmax",
+            "/scizor", "/passimian", "/togepi", "/cranidos", "/landorus-incarnate", "/skrelp",
+            "/ledyba", "/mightyena", "/leafeon", "/flabebe", "/gallade-mega", "/azelf",
+            "/empoleon", "/silicobra", "/luxray", "/necrozma-ultra", "/victini", "/toxtricity-low-key"],
+            
+            ["/regice", "/hitmontop", "/grovyle", "/glaceon", "/electivire", "/eiscue-ice",
+            "/iron-moth","/vigoroth", "/masquerain", "/bewear", "/eldegoss", "/zacian",
+            "/crabominable", "/chinchou", "/hitmonchan", "/watchog", "/samurott", "/tandemaus",
+            "/inteleon-gmax", "/ursaluna-bloodmoon", "/sceptile", "/tentacool", "/great-tusk", "/sawk",
+            "/nuzleaf", "/mamoswine", "/ivysaur", "/pawniard", "/tornadus-therian", "/celebi"],
+
+            ["/mewtwo", "/uxie", "/iron-valiant", "/naclstack", "/dugtrio", "/whiscash",
+            "-form/arceus-fire","/darumaka-galar", "/zangoose", "/krabby", "/teddiursa", "/nacli",
+            "/trapinch", "/zekrom", "/cascoon", "/fomantis", "/rotom-wash", "/growlithe",
+            "/corsola", "/flygon", "/beartic", "/slowpoke", "/croconaw", "/palossand",
+            "/floette", "/slurpuff", "/perrserker", "/barbaracle", "/rattata", "/celesteela"],
+
+            ["/blitzle", "/yanma", "/okidogi", "/virizion", "/rookidee", "/flapple-gmax",
+            "/noibat","/heatmor", "/hitmontop", "/flamigo", "/golisopod", "/sableye",
+            "-form/silvally-dark", "/geodude", "/iron-leaves", "/seviper", "/archaludon", "/stakataka",
+            "/iron-jugulis", "/fraxure", "/poliwrath", "/gimmighoul", "/koffing", "/poliwhirl",
+            "/landorus-therian", "/whiscash", "/toxtricity-amped", "/cufant", "/gossifleur", "/giratina-altered"],
         // Agrega más equipos según sea necesario
     ];
 
@@ -77,12 +101,11 @@ const main = async () => {
         "LOS BOMBEROS",
         "THE BASIC",
         "FUKING 5º",
-        "4º Equipo",
-        "5º Equipo",
-        "6º Equipo",
-        "7º Equipo",
-        "8º Equipo",
-        "9º Equipo"
+        "BOOMBASTIC",
+        "NOVEDADES",
+        "JEJE GOD",
+        "LOS MARIJUANAS",
+        "8º Equipo"
         // Agrega más nombres de equipos según sea necesario
     ];
 
