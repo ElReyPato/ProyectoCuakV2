@@ -38,6 +38,13 @@
     padding: 5px;
 }
 
+#listadoTier{
+    display: flex;
+    justify-content: center;
+}
+#atras,#alante{
+    cursor: pointer;
+}
 
 /* #prueba > .videos{
     border: solid var(--colortexto);
