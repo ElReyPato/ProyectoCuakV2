@@ -8,7 +8,6 @@ main{
 
 #tienda{
     width: 80vw;
-    margin-top: 250px;
 }
 
 #tienda ul{
@@ -48,7 +47,6 @@ main{
 #torneos{
     display: flex;
     flex-direction: column;
-    margin-top: -350px;
 }
 #torneos h1{
     font-size: 50px;
