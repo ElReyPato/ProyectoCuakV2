@@ -21,8 +21,19 @@ function cargarSteam() {
     .then(respuesta => respuesta.json()) //Indicamos el formato en que se desea obtener la información
     .then(data => {
 
+      
+      // Ordenar los datos alfabéticamente por el nombre
+      data.sort((a, b) => a.nombre.localeCompare(b.nombre));
       // Recorrer los resultados y generar elementos en el DOM
       const tablaSteam = document.getElementById('tablaSteam');
+      // Contar el número de elementos en el JSON
+      const numElementos = data.length;
+
+            // Crear un elemento <p> para mostrar la cantidad de elementos
+            const cantidadElementosParrafo = document.createElement('h2');
+            cantidadElementosParrafo.textContent = `Juegos activos en Steam: ${numElementos}`;
+            tablaSteam.appendChild(cantidadElementosParrafo);
+
       data.map(item => {
         const card = document.createElement('div');
         card.classList.add('card');
@@ -40,8 +51,19 @@ function cargarNintendo() {
     .then(respuesta => respuesta.json()) //Indicamos el formato en que se desea obtener la información
     .then(data => {
 
+      // Ordenar los datos alfabéticamente por el nombre
+      data.sort((a, b) => a.nombre.localeCompare(b.nombre));
       // Recorrer los resultados y generar elementos en el DOM
       const tablaNintendo = document.getElementById('tablaNintendo');
+
+      // Contar el número de elementos en el JSON
+      const numElementos = data.length;
+
+      // Crear un elemento <p> para mostrar la cantidad de elementos
+      const cantidadElementosParrafo = document.createElement('h2');
+      cantidadElementosParrafo.textContent = `Juegos activos en Nintendo: ${numElementos}`;
+      tablaNintendo.appendChild(cantidadElementosParrafo);
+
       data.map(item => {
         const card = document.createElement('div');
         card.classList.add('card');
@@ -59,8 +81,19 @@ function cargarEpic() {
     .then(respuesta => respuesta.json()) //Indicamos el formato en que se desea obtener la información
     .then(data => {
 
+      
+      // Ordenar los datos alfabéticamente por el nombre
+      data.sort((a, b) => a.nombre.localeCompare(b.nombre));
       // Recorrer los resultados y generar elementos en el DOM
       const tablaEpic = document.getElementById('tablaEpic');
+      // Contar el número de elementos en el JSON
+      const numElementos = data.length;
+
+                  // Crear un elemento <p> para mostrar la cantidad de elementos
+                  const cantidadElementosParrafo = document.createElement('h2');
+                  cantidadElementosParrafo.textContent = `Juegos activos en Epic: ${numElementos}`;
+                  tablaEpic.appendChild(cantidadElementosParrafo);
+
       data.map(item => {
         const card = document.createElement('div');
         card.classList.add('card');
