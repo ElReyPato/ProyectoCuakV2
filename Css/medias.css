@@ -1,7 +1,7 @@
 @media (max-width: 500px) {
 
     .juegos_img {
-        width: 75px;
+        width: 110px;
         height: auto;
         
         grid-template-columns: repeat(3 , 5px);
@@ -19,4 +19,23 @@
       #tienda ul li p:nth-of-type(2){
         display: none;
       }
+
+      .tablaJuegos div h2{
+        display: none;
+      }
+      .tablaJuegos {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(125px, 1fr)); /* Columnas de tamaño mínimo de 300px */
+        grid-gap: 20px; /* Espacio entre las imágenes */
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 1366px){
+  .tablaJuegos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Columnas de tamaño mínimo de 300px */
+    grid-gap: 20px; /* Espacio entre las imágenes */
+    margin-bottom: 15px;
+}
 }
