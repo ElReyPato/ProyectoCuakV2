@@ -49,7 +49,7 @@
     },
     {
         "nombre": "Cassette Beats",
-        "imagen": "https://howlongtobeat.com/games/78097_Cassette_Beasts.jpg?width=250",
+        "imagen": "https://howlongtobeat.com/games/78097_Cassette_Beasts.jpg",
         "url": "https://www.nintendo.es/Juegos/Programas-descargables-Nintendo-Switch/Cassette-Beasts-2383755.html",
         "plataforma": [
             "Nintendo"
@@ -57,7 +57,7 @@
     },
     {
         "nombre": "Forager",
-        "imagen": "https://howlongtobeat.com/games/62412_Forager.jpg?width=250",
+        "imagen": "https://howlongtobeat.com/games/62412_Forager.jpg",
         "url": "https://www.nintendo.es/Juegos/Programas-descargables-Nintendo-Switch/Forager-1501105.html",
         "plataforma": [
             "Nintendo"
@@ -65,7 +65,7 @@
     },
     {
         "nombre": "Lego Marvel Super Heroes",
-        "imagen": "https://howlongtobeat.com/games/Lego-Marvel-cover.jpg?width=250",
+        "imagen": "https://howlongtobeat.com/games/Lego-Marvel-cover.jpg",
         "url": "https://www.nintendo.es/Juegos/Juegos-de-Nintendo-Switch/LEGO-Marvel-Super-Heroes-2054297.html",
         "plataforma": [
             "Nintendo"
@@ -73,7 +73,7 @@
     },
     {
         "nombre": "Mario + Rabbids Kingdom Battle",
-        "imagen": "https://howlongtobeat.com/games/46464_Mario__Rabbids_Kingdom_Battle.jpg?width=250",
+        "imagen": "https://howlongtobeat.com/games/46464_Mario__Rabbids_Kingdom_Battle.jpg",
         "url": "https://www.nintendo.es/Juegos/Juegos-de-Nintendo-Switch/Mario-Rabbids-Kingdom-Battle-1233954.html",
         "plataforma": [
             "Nintendo"
@@ -81,7 +81,7 @@
     },
     {
         "nombre": "Surviving The Aftermath",
-        "imagen": "https://howlongtobeat.com/games/71494_Surviving_The_Aftermath.jpg?width=250",
+        "imagen": "https://howlongtobeat.com/games/71494_Surviving_The_Aftermath.jpg",
         "url": "https://www.nintendo.es/Juegos/Juegos-de-Nintendo-Switch/Surviving-the-Aftermath-1864802.html",
         "plataforma": [
             "Nintendo"
@@ -89,7 +89,7 @@
     },
     {
         "nombre": "Crash Bandicood N-sane Trilogy",
-        "imagen": "https://howlongtobeat.com/games/46381_Crash_Bandicoot_N_Sane_Trilogy.jpg?width=250",
+        "imagen": "https://howlongtobeat.com/games/46381_Crash_Bandicoot_N_Sane_Trilogy.jpg",
         "url": "https://www.nintendo.es/Juegos/Juegos-de-Nintendo-Switch/Crash-Bandicoot-N-Sane-Trilogy-1347784.html",
         "plataforma": [
             "Nintendo"
@@ -97,7 +97,7 @@
     },
     {
         "nombre": "Mario Kart 8 Deluxe",
-        "imagen": "https://howlongtobeat.com/games/43480_Mario_Kart_8_Deluxe.jpg?width=250",
+        "imagen": "https://howlongtobeat.com/games/43480_Mario_Kart_8_Deluxe.jpg",
         "url": "https://www.nintendo.es/Juegos/Juegos-de-Nintendo-Switch/Mario-Kart-8-Deluxe-1173281.html",
         "plataforma": [
             "Nintendo"
@@ -105,7 +105,7 @@
     },
     {
         "nombre": "Blasphemous",
-        "imagen": "https://howlongtobeat.com/games/62047_Blasphemous.jpg?width=250",
+        "imagen": "https://howlongtobeat.com/games/62047_Blasphemous.jpg",
         "url": "https://www.nintendo.es/Juegos/Programas-descargables-Nintendo-Switch/Blasphemous-1629870.html",
         "plataforma": [
             "Nintendo"
@@ -113,7 +113,7 @@
     },
     {
         "nombre": "Moonlighter",
-        "imagen": "https://howlongtobeat.com/games/56787_Moonlighter.jpg?width=250",
+        "imagen": "https://howlongtobeat.com/games/56787_Moonlighter.jpg",
         "url": "https://www.nintendo.es/Juegos/Programas-descargables-Nintendo-Switch/Moonlighter-1423773.html",
         "plataforma": [
             "Nintendo"
@@ -121,7 +121,7 @@
     },
     {
         "nombre": "Tunic",
-        "imagen": "https://howlongtobeat.com/games/52546_Tunic.jpg?width=250",
+        "imagen": "https://howlongtobeat.com/games/52546_Tunic.jpg",
         "url": "https://www.nintendo.es/Juegos/Programas-descargables-Nintendo-Switch/TUNIC-2265547.html",
         "plataforma": [
             "Nintendo"
@@ -129,7 +129,7 @@
     },
     {
         "nombre": "Super Mario Bros Wonder",
-        "imagen": "https://howlongtobeat.com/games/130444_Super_Mario_Bros_Wonder.jpg?width=250",
+        "imagen": "https://howlongtobeat.com/games/130444_Super_Mario_Bros_Wonder.jpg",
         "url": "https://www.nintendo.es/Juegos/Juegos-de-Nintendo-Switch/Super-Mario-Bros-Wonder-2404150.html",
         "plataforma": [
             "Nintendo"
@@ -137,7 +137,7 @@
     },
     {
         "nombre": "Wall World",
-        "imagen": "https://howlongtobeat.com/games/126642_Wall_World.jpg?width=250",
+        "imagen": "https://howlongtobeat.com/games/126642_Wall_World.jpg",
         "url": "https://www.nintendo.es/Juegos/Programas-descargables-Nintendo-Switch/Wall-World-2484514.html",
         "plataforma": [
             "Nintendo"
@@ -145,7 +145,7 @@
     },
     {
         "nombre": "Bayonetta 1+2",
-        "imagen": "https://howlongtobeat.com/games/Bayonetta_Box_Art.jpg?width=250",
+        "imagen": "https://howlongtobeat.com/games/Bayonetta_Box_Art.jpg",
         "url": "https://www.nintendo.es/Juegos/Programas-descargables-Nintendo-Switch/Bayonetta-2-Bayonetta--2203025.html",
         "plataforma": [
             "Nintendo"
@@ -153,7 +153,7 @@
     },
     {
         "nombre": "Sanabi",
-        "imagen": "https://howlongtobeat.com/games/109662_SANABI.jpg?width=250",
+        "imagen": "https://howlongtobeat.com/games/109662_SANABI.jpg",
         "url": "https://www.nintendo.es/Juegos/Programas-descargables-Nintendo-Switch/SANABI-2479472.html",
         "plataforma": [
             "Nintendo"
@@ -161,7 +161,7 @@
     },
     {
         "nombre": "Terra Nil",
-        "imagen": "https://howlongtobeat.com/games/94425_Terra_Nil.jpg?width=250",
+        "imagen": "https://howlongtobeat.com/games/94425_Terra_Nil.jpg",
         "url": "https://www.nintendo.es/Juegos/Programas-descargables-Nintendo-Switch/Terra-Nil-2495001.html",
         "plataforma": [
             "Nintendo"
@@ -169,7 +169,7 @@
     },
     {
         "nombre": "Turnip Boy robs a bank",
-        "imagen": "https://howlongtobeat.com/games/113622_Turnip_Boy_Robs_a_Bank.jpg?width=250",
+        "imagen": "https://howlongtobeat.com/games/113622_Turnip_Boy_Robs_a_Bank.jpg",
         "url": "https://www.nintendo.es/Juegos/Programas-descargables-Nintendo-Switch/Turnip-Boy-Robs-a-Bank-2503368.html",
         "plataforma": [
             "Nintendo"
@@ -177,7 +177,7 @@
     },
     {
         "nombre": "The Pedestrian",
-        "imagen": "https://howlongtobeat.com/games/74727_The_Pedestrian.jpg?width=250",
+        "imagen": "https://howlongtobeat.com/games/74727_The_Pedestrian.jpg",
         "url": "https://www.nintendo.es/Juegos/Programas-descargables-Nintendo-Switch/The-Pedestrian-2502428.html",
         "plataforma": [
             "Nintendo"
@@ -185,7 +185,7 @@
     },
     {
         "nombre": "Sonic Colors: Ultimate",
-        "imagen": "https://howlongtobeat.com/games/92789_Sonic_Colors_Ultimate.jpg?width=250",
+        "imagen": "https://howlongtobeat.com/games/92789_Sonic_Colors_Ultimate.jpg",
         "url": "https://www.nintendo.es/Juegos/Juegos-de-Nintendo-Switch/Sonic-Colours-Ultimate-2014880.html",
         "plataforma": [
             "Nintendo"
@@ -193,8 +193,16 @@
     },
     {
         "nombre": "Pokemon Mundo Misterioso DX",
-        "imagen": "https://howlongtobeat.com/games/74108_Pokmon_Mystery_Dungeon_Rescue_Team_DX.jpg?width=250",
+        "imagen": "https://howlongtobeat.com/games/74108_Pokmon_Mystery_Dungeon_Rescue_Team_DX.jpg",
         "url": "https://www.nintendo.es/Juegos/Juegos-de-Nintendo-Switch/Pokemon-Mundo-misterioso-equipo-de-rescate-DX-1695693.html",
+        "plataforma": [
+            "Nintendo"
+        ]
+    },
+    {
+        "nombre": "Monster Crown",
+        "imagen": "https://howlongtobeat.com/games/67350_Monster_Crown.jpg",
+        "url": "https://www.nintendo.es/Juegos/Juegos-de-Nintendo-Switch/Monster-Crown-2048395.html",
         "plataforma": [
             "Nintendo"
         ]
