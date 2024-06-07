@@ -1,0 +1,17 @@
+[
+    {
+        "nombre": "Dante",
+        "tipo": "Lider tipo Roca",
+        "foto": "../../img/medallas/dante.png",
+        "medalla": "../../img/medallas/roca.png",
+        "equipo": [
+            "frosmoth",
+            "tyranitar-mega",
+            "cradily",
+            "garganacl",
+            "archeops",
+            "kleavor"
+        ]
+    }
+
+]

@@ -1,0 +1,36 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lider-container{
+    border: 3px solid var(--colortexto);
+    border-radius: 5px;
+    width: 75%;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lider-card  img{
+    width: 100px;
+}
+.lider-card p{
+    font-size: 25px;
+}
+.lider-card h2{
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+
+.equipo-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.equipo-container h3{
+    font-weight: lighter;
+}

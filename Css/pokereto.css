@@ -1,6 +1,9 @@
 main{
     display: block;
 }
+.listado{
+    font-size: 25px;
+}
 #reglas{
     margin-left: 50px;
     font-size: 17px;
