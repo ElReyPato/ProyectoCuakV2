@@ -8,7 +8,7 @@ function obtenerValorFormulario() {
         alert("Contraseña incorrecta, por favor vuelva a intentarlo");
     } else {
         // Redirige a lideres.html
-        window.location.assign('../html/Pokemon/lideres.html');
+        window.location.assign('../Html/Pokemon/lideres.html');
     }
     return false; // Para evitar que el formulario se envíe de manera predeterminada
 }
