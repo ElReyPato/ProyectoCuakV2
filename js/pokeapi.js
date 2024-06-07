@@ -72,17 +72,24 @@ function premio() {
 
     logo.addEventListener("mouseover", () => {
         contador++;
-        verificarPremio();
+        if(verificarPremio() == true){
+            contador = 0;
+        }
     });
 
     logo.addEventListener("click", () => {
         contador2++;
-        verificarPremio();
+        if(verificarPremio() == true){
+            contador2 = 0;
+        }
     });
 
     function verificarPremio() {
-        if (contador === 100 && contador2 === 100) {
+        if (contador == 5 && contador2 == 5) {
             alert("Bueno veo que no te aburres tanto que has llegado hasta aquí. Saca una captura de esto y te regalaré algo bien bonito.");
+            return true;
+        }else{
+            return false;
         }
     }
 }

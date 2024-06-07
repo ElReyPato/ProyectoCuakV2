@@ -10,11 +10,12 @@
         font-family: 'unown';
     }
     #formularioContraseña input[type='text']{
-        width: 300px;
+        width: 350px;
         font-family: 'unown';
         font-size: 20px;
         text-align: center;
         background: none;
+        border: 4px inset var(--colortexto);
     }
     #formularioContraseña input[type='submit']{
         width: 150;
