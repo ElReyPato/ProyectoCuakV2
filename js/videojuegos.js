@@ -31,6 +31,7 @@ function cargarSteam() {
 
             // Crear un elemento <p> para mostrar la cantidad de elementos
             const cantidadElementosParrafo = document.createElement('h2');
+            cantidadElementosParrafo.classList.add('juegosActivos'); // Agregar la clase 'juegosActivos'
             cantidadElementosParrafo.textContent = `Juegos activos en Steam: ${numElementos}`;
             tablaSteam.appendChild(cantidadElementosParrafo);
 
@@ -55,14 +56,16 @@ function cargarNintendo() {
       data.sort((a, b) => a.nombre.localeCompare(b.nombre));
       // Recorrer los resultados y generar elementos en el DOM
       const tablaNintendo = document.getElementById('tablaNintendo');
+      const CountN = document.getElementById('CountN');
 
       // Contar el número de elementos en el JSON
       const numElementos = data.length;
 
       // Crear un elemento <p> para mostrar la cantidad de elementos
       const cantidadElementosParrafo = document.createElement('h2');
+      cantidadElementosParrafo.classList.add('juegosActivos'); // Agregar la clase 'juegosActivos'
       cantidadElementosParrafo.textContent = `Juegos activos en Nintendo: ${numElementos}`;
-      tablaNintendo.appendChild(cantidadElementosParrafo);
+      CountN.appendChild(cantidadElementosParrafo);
 
       data.map(item => {
         const card = document.createElement('div');
@@ -91,6 +94,7 @@ function cargarEpic() {
 
                   // Crear un elemento <p> para mostrar la cantidad de elementos
                   const cantidadElementosParrafo = document.createElement('h2');
+                  cantidadElementosParrafo.classList.add('juegosActivos'); // Agregar la clase 'juegosActivos'
                   cantidadElementosParrafo.textContent = `Juegos activos en Epic: ${numElementos}`;
                   tablaEpic.appendChild(cantidadElementosParrafo);
 

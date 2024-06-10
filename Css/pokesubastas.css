@@ -1,0 +1,68 @@
+/* -- Subastas -- */
+
+/* Estilos generales */
+.pokemon-container details {
+    text-align: center;
+    border: solid 5px #121212;
+    margin: 5px 0;
+    padding: 5px auto;
+}
+
+.pokemon-card {
+    text-align: center;
+    width: 150px;
+    margin: 5px;
+}
+
+.pokemon-card img {
+    width: 100px;
+}
+
+#cajas section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+#cajas section * {
+    justify-self: center;
+    font-weight: lighter;
+}
+
+summary {
+    font-size: 25px;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+    .pokemon-card h3 {
+        display: none;
+    }
+    .pokemon-card{
+        width: 80px;
+    }
+    .pokemon-card img {
+        width: 75px;
+    }
+}
+
+
+.green, #l1{
+    color: lightgreen;
+}
+.blue , #l2{
+    color: lightblue;
+}
+.red , #l4{
+    color: lightcoral;
+}
+.yellow, #l3{
+    color: rgb(255, 255, 145);
+}
+.leyenda{
+    display: flex;
+    font-size: 25px;
+    justify-content: space-around;
+    
+}

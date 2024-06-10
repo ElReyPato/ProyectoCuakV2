@@ -1,13 +1,56 @@
-main{
-    display: block;
+main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
-.listado{
-    font-size: 25px;
+
+.left-column {
+    width: 100%;
+    display: flex;
 }
-#reglas{
-    margin-left: 50px;
+
+#leaderboard, #torneos {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#reglas {
+    width: 100%;
     font-size: 17px;
 }
+
+.shop {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#torneos h1 {
+    font-size: 50px;
+    font-weight: lighter;
+    margin-bottom: 15px;
+}
+
+#torneos a {
+    font-size: 20px;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .left-column, #reglas {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    #reglas {
+        margin-left: 0;
+    }
+}
+
+
+
+/* -- Tienda -- */
 
 #tienda{
     width: 80vw;
@@ -19,7 +62,7 @@ main{
     /* display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 50px; */
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -47,79 +90,5 @@ main{
     align-items: center;
 }
 
-#torneos{
-    display: flex;
-    flex-direction: column;
-}
-#torneos h1{
-    font-size: 50px;
-    font-weight: lighter;
-    margin-bottom: 15px;
-}
-#torneos h1:hover a{
-    display: block;
-}
-#torneos a{
-    font-size: 20px;
-    display: none;
-}
-article, section {
-    display: flex;
-}
-.shop{
-    display: flex;
-    flex-direction: column;
-}
-
-/* -- Subastas -- */
-
-.pokemon-container details  {
-    text-align: center;
-    border: solid 5px #121212;
-    margin: 5px 0;
-    padding: 5px auto;
-}
-
-.pokemon-card{
-    text-align: center;
-    width: 150px;
-    margin: 5px;
-}
-
-.pokemon-card img{
-    width: 100px;
-}
-
-#cajas section {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    padding: 1rem 0;
-}
-#cajas section *{
-    justify-self: center;
-    font-weight: lighter;
-}
-
-summary{
-    font-size: 25px;
-}
 
 
-.green, #l1{
-    color: lightgreen;
-}
-.blue , #l2{
-    color: lightblue;
-}
-.red , #l4{
-    color: lightcoral;
-}
-.yellow, #l3{
-    color: rgb(255, 255, 145);
-}
-.leyenda{
-    display: flex;
-    font-size: 25px;
-    justify-content: space-around;
-    
-}

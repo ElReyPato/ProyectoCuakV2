@@ -1,41 +1,32 @@
-@media (max-width: 500px) {
+@media (max-width: 768px) {
 
-    .juegos_img {
-        width: 110px;
-        height: auto;
-        
-        grid-template-columns: repeat(3 , 5px);
-        grid-gap: 0px;
-      }
-      .rules{
-        flex-direction: column;
-      }
-      .rules iframe{
-        width: 100%;
-      }
-      #tienda ul li{
-        height: 150px;
-      }
-      #tienda ul li p:nth-of-type(2){
-        display: none;
-      }
+  .juegos_img {
+    width: 100px; /* Nuevo ancho para dispositivos móviles */
+  }
 
-      .tablaJuegos div h2{
-        display: none;
-      }
-      .tablaJuegos {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(125px, 1fr)); /* Columnas de tamaño mínimo de 300px */
-        grid-gap: 20px; /* Espacio entre las imágenes */
-        margin-bottom: 15px;
-    }
-}
-
-@media (max-width: 1366px){
   .tablaJuegos {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Columnas de tamaño mínimo de 300px */
+    grid-template-columns: repeat(2, minmax(125px, 1fr)); /* Columnas de tamaño mínimo de 300px */
     grid-gap: 20px; /* Espacio entre las imágenes */
     margin-bottom: 15px;
+  }
+
+  .tablaJuegos div h2 {
+      display: none; /* Ocultar los títulos de los juegos */
+  }
+
+  .rules{
+    flex-direction: column;
+  }
+  .rules iframe{
+    width: 100%;
+  }
+  #tienda ul li{
+    height: 150px;
+  }
+  #tienda ul li p:nth-of-type(2){
+    display: none;
+  }
+  
 }
-}
+

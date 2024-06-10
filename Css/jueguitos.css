@@ -8,19 +8,25 @@
     font-family: var(--texto);
     font-size: 2em;
     list-style: none;
-    margin-bottom: 15px;
 }
 
-.tablaJuegos {
+.tablaJuegos{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Columnas de tamaño mínimo de 300px */
     grid-gap: 20px; /* Espacio entre las imágenes */
     margin-bottom: 15px;
 }
-
+.titulo_plat{
+    list-style: none;
+    font-size: 3em;
+    margin: 0;
+}
+#CountN, #CountS, #CountE{
+    font-size: 25px;
+}
 .juegos_img {
   border: solid var(--colortexto);
-  width: 100%; /* Ajusta el ancho según tus necesidades */
+  width: 250px;
   max-width: 225px; /* Puedes establecer un ancho máximo */
   height: auto; /* Esto garantiza que la imagen mantenga su proporción */
   margin: 5px auto;
@@ -45,6 +51,7 @@
 #atras,#alante{
     cursor: pointer;
 }
+
 
 /* #prueba > .videos{
     border: solid var(--colortexto);
