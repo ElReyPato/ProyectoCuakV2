@@ -27,15 +27,6 @@
         ]
     },
     {
-        "nombre": "Cuphead",
-        "imagen": "https://howlongtobeat.com/games/cuphead-250.jpg",
-        "url": "https://store.steampowered.com/app/268910/Cuphead/",
-        "plataforma": [
-            "PC",
-            "Steam"
-        ]
-    },
-    {
         "nombre": "Digimon Story Cyber Sleuth",
         "imagen": "https://howlongtobeat.com/games/71310_Digimon_Story_Cyber_Sleuth_Complete_Edition.jpg",
         "url": "https://store.steampowered.com/app/1042550/Digimon_Story_Cyber_Sleuth_Complete_Edition/",
@@ -57,6 +48,15 @@
         "nombre": "Hades",
         "imagen": "https://howlongtobeat.com/games/62941_Hades.jpg",
         "url": "https://store.steampowered.com/app/1145360/Hades/",
+        "plataforma": [
+            "PC",
+            "Steam"
+        ]
+    },
+    {
+        "nombre": "Hellblade: Senua's Sacrifice",
+        "imagen": "https://howlongtobeat.com/games/41638_Hellblade_Senuas_Sacrifice.jpg",
+        "url": "https://store.steampowered.com/app/414340/Hellblade_Senuas_Sacrifice/",
         "plataforma": [
             "PC",
             "Steam"
@@ -129,6 +129,51 @@
         "nombre": "Project Warlock",
         "imagen": "https://howlongtobeat.com/games/48457_Project_Warlock.jpg",
         "url": "https://store.steampowered.com/app/893680/Project_Warlock/",
+        "plataforma": [
+            "PC",
+            "Steam"
+        ]
+    },
+    {
+        "nombre": "Skul: The Hero Slayer",
+        "imagen": "https://howlongtobeat.com/games/73152_Skul_The_Hero_Slayer.jpg",
+        "url": "https://store.steampowered.com/app/1147560/Skul_The_Hero_Slayer/",
+        "plataforma": [
+            "PC",
+            "Steam"
+        ]
+    },
+    {
+        "nombre": "Spyro Reignited Trilogy",
+        "imagen": "https://howlongtobeat.com/games/55358_Spyro_Reignited_Trilogy.jpg",
+        "url": "https://store.steampowered.com/app/996580/Spyro_Reignited_Trilogy/",
+        "plataforma": [
+            "PC",
+            "Steam"
+        ]
+    },
+    {
+        "nombre": "TemTem",
+        "imagen": "https://howlongtobeat.com/games/58133_Temtem.jpg",
+        "url": "https://store.steampowered.com/app/745920/Temtem/",
+        "plataforma": [
+            "PC",
+            "Steam"
+        ]
+    },
+    {
+        "nombre": "The Swords Of Ditto",
+        "imagen": "https://howlongtobeat.com/games/48469_The_Swords_Of_Ditto.jpg",
+        "url": "https://store.steampowered.com/app/619780/The_Swords_of_Ditto_Mormos_Curse/",
+        "plataforma": [
+            "PC",
+            "Steam"
+        ]
+    },
+    {
+        "nombre": "World of Final Fantasy",
+        "imagen": "https://howlongtobeat.com/games/40502_World_of_Final_Fantasy.jpg",
+        "url": "https://store.steampowered.com/app/552700/WORLD_OF_FINAL_FANTASY/",
         "plataforma": [
             "PC",
             "Steam"

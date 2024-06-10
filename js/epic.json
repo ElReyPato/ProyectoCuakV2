@@ -1,5 +1,14 @@
 [
     {
+        "nombre": "A Plague Tale: Innocence",
+        "imagen": "https://howlongtobeat.com/games/65080_A_Plague_Tale_Innocence.jpeg",
+        "url": "https://store.epicgames.com/es-ES/p/a-plague-tale-innocence",
+        "plataforma": [
+            "PC",
+            "EpicGames"
+        ]
+    },
+    {
         "nombre": "Alien: Isolation",
         "imagen": "https://howlongtobeat.com/games/Alien_Isolation.jpg",
         "url": "https://store.epicgames.com/es-ES/p/alien-isolation",
@@ -7,5 +16,357 @@
             "PC",
             "EpicGames"
         ]
+    },
+    {
+        "nombre": "Amnesia: The Dark Descent",
+        "imagen": "https://howlongtobeat.com/games/440_Amnesia_The_Dark_Descent.jpg",
+        "url": "https://store.epicgames.com/es-ES/p/amnesia-the-dark-descent",
+        "plataforma": [
+            "PC",
+            "EpicGames"
+        ]
+    },
+    {
+        "nombre": "BioShock",
+        "imagen": "https://howlongtobeat.com/games/Bioshockcoverfinalcropped.jpg",
+        "url": "https://store.epicgames.com/es-ES/p/bioshock-remastered",
+        "plataforma": [
+            "PC",
+            "EpicGames"
+        ]
+    },
+    {
+        "nombre": "Breathedge",
+        "imagen": "https://howlongtobeat.com/games/61488_Breathedge.jpg",
+        "url": "https://store.epicgames.com/es-ES/p/breathedge",
+        "plataforma": [
+            "PC",
+            "EpicGames"
+        ]
+    },
+    {
+        "nombre": "Cat Quest",
+        "imagen": "https://howlongtobeat.com/games/48142_Cat_Quest.jpg",
+        "url": "https://store.epicgames.com/es-ES/p/cat-quest-8373e0",
+        "plataforma": [
+            "PC",
+            "EpicGames"
+        ]
+    },
+    {
+        "nombre": "Control",
+        "imagen": "https://howlongtobeat.com/games/57507_Control.jpg",
+        "url": "https://store.epicgames.com/es-ES/p/control",
+        "plataforma": [
+            "PC",
+            "EpicGames"
+        ]
+    },
+    {
+        "nombre": "Daemon X Machina",
+        "imagen": "https://howlongtobeat.com/games/57532_Daemon_X_Machina.jpg",
+        "url": "https://store.epicgames.com/es-ES/p/daemon-x-machina",
+        "plataforma": [
+            "PC",
+            "EpicGames"
+        ]
+    },
+    {
+        "nombre": "Dandara",
+        "imagen": "https://howlongtobeat.com/games/52985_Dandara.jpg",
+        "url": "https://store.epicgames.com/es-ES/p/dandara",
+        "plataforma": [
+            "PC",
+            "EpicGames"
+        ]
+    },
+    {
+        "nombre": "Death Stranding",
+        "imagen": "https://howlongtobeat.com/games/38061_Death_Stranding.jpg",
+        "url": "https://store.epicgames.com/es-ES/p/death-stranding",
+        "plataforma": [
+            "PC",
+            "EpicGames"
+        ]
+    },
+    {
+        "nombre": "Doki Doki",
+        "imagen": "https://howlongtobeat.com/games/93892_Doki_Doki_Literature_Club_Plus.jpg",
+        "url": "https://store.epicgames.com/es-ES/p/doki-doki-literature-club-plus",
+        "plataforma": [
+            "PC",
+            "EpicGames"
+        ]
+    },
+    {
+        "nombre": "Dragon Age: Inquisition",
+        "imagen": "https://howlongtobeat.com/games/80273_Dragon_Age_Inquisition_-_Game_of_the_Year_Edition.jpg",
+        "url": "https://store.epicgames.com/es-ES/p/dragon-age-inquisition-game-of-the-year-edition-2f0cbd",
+        "plataforma": [
+            "PC",
+            "EpicGames"
+        ]
+    },
+    {
+        "nombre": "Evoland",
+        "imagen": "https://howlongtobeat.com/games/64830_Evoland_Legendary_Edition.jpg",
+        "url": "https://store.epicgames.com/es-ES/p/evoland-legendary-edition-5753ec",
+        "plataforma": [
+            "PC",
+            "EpicGames"
+        ]
+    },
+    {
+        "nombre": "Ghostrunner",
+        "imagen": "https://howlongtobeat.com/games/69898_Ghostrunner.jpg",
+        "url": "https://store.epicgames.com/es-ES/p/ghostrunner",
+        "plataforma": [
+            "PC",
+            "EpicGames"
+        ]
+    },
+    {
+        "nombre": "Grime",
+        "imagen": "https://howlongtobeat.com/games/85927_Grime.jpg",
+        "url": "https://store.epicgames.com/es-ES/p/grime",
+        "plataforma": [
+            "PC",
+            "EpicGames"
+        ]
+    },
+    {
+        "nombre": "Guacamelee!",
+        "imagen": "https://howlongtobeat.com/games/Guacamelee!SuperTurboChampionshipEdition.jpg",
+        "url": "https://store.epicgames.com/es-ES/p/guacamelee-stce-7cdbc8",
+        "plataforma": [
+            "PC",
+            "EpicGames"
+        ]
+    },
+    {
+        "nombre": "Hell is Others",
+        "imagen": "https://howlongtobeat.com/games/114518_Hell_is_Others.jpg",
+        "url": "https://store.epicgames.com/es-ES/p/hell-is-others-789262",
+        "plataforma": [
+            "PC",
+            "EpicGames"
+        ]
+    },
+    {
+        "nombre": "Hob",
+        "imagen": "https://howlongtobeat.com/games/37105_Hob.jpg",
+        "url": "https://store.epicgames.com/es-ES/p/hob",
+        "plataforma": [
+            "PC",
+            "EpicGames"
+        ]
+    },
+    {
+        "nombre": "hue",
+        "imagen": "https://howlongtobeat.com/games/38008_HUE.jpg",
+        "url": "https://store.epicgames.com/es-ES/p/hue",
+        "plataforma": [
+            "PC",
+            "EpicGames"
+        ]
+    },
+    {
+        "nombre": "Islets",
+        "imagen": "https://howlongtobeat.com/games/109289_Islets.jpg",
+        "url": "https://store.epicgames.com/es-ES/p/islets-5f2670",
+        "plataforma": [
+            "PC",
+            "EpicGames"
+        ]
+    },
+    {
+        "nombre": "Kao the Kangaroo",
+        "imagen": "https://howlongtobeat.com/games/103354_Kao_the_Kangaroo_(2022).jpg",
+        "url": "https://store.epicgames.com/es-ES/p/kao-the-kangaroo-62abe3",
+        "plataforma": [
+            "PC",
+            "EpicGames"
+        ]
+    },
+    {
+        "nombre": "Lifeless Planet",
+        "imagen": "https://howlongtobeat.com/games/LifelessPlanet.jpg",
+        "url": "https://store.epicgames.com/es-ES/p/lifeless-planet",
+        "plataforma": [
+            "PC",
+            "EpicGames"
+        ]
+    },
+    {
+        "nombre": "Marvel's Guardians of the Galaxy",
+        "imagen": "https://howlongtobeat.com/games/72584_Marvels_Guardians_of_the_Galaxy.jpg",
+        "url": "https://store.epicgames.com/es-ES/p/marvels-guardians-of-the-galaxy",
+        "plataforma": [
+            "PC",
+            "EpicGames"
+        ]
+    },
+    {
+        "nombre": "Marvel's Midnight Suns",
+        "imagen": "https://howlongtobeat.com/games/97298_Marvels_Midnight_Suns.jpg",
+        "url": "https://store.epicgames.com/es-ES/p/marvels-midnight-suns",
+        "plataforma": [
+            "PC",
+            "EpicGames"
+        ]
+    },
+    {
+        "nombre": "Mortal Shell",
+        "imagen": "https://howlongtobeat.com/games/76520_Mortal_Shell.jpg",
+        "url": "https://store.epicgames.com/es-ES/p/mortal-shell",
+        "plataforma": [
+            "PC",
+            "EpicGames"
+        ]
+    },
+    {
+        "nombre": "Mutant Year Zero: Road to Eden",
+        "imagen": "https://howlongtobeat.com/games/62811_Mutant_Year_Zero_Road_to_Eden.jpg",
+        "url": "https://store.epicgames.com/es-ES/p/mutant-year-zero",
+        "plataforma": [
+            "PC",
+            "EpicGames"
+        ]
+    },
+    {
+        "nombre": "Night in the Woods",
+        "imagen": "https://howlongtobeat.com/games/Night_in_the_Woods-original.jpg",
+        "url": "https://store.epicgames.com/es-ES/p/mutant-year-zero",
+        "plataforma": [
+            "PC",
+            "EpicGames"
+        ]
+    },
+    {
+        "nombre": "Nioh",
+        "imagen": "https://howlongtobeat.com/games/50419_Nioh_Complete_Edition.jpg",
+        "url": "https://store.epicgames.com/es-ES/p/Nioh",
+        "plataforma": [
+            "PC",
+            "EpicGames"
+        ]
+    },
+    {
+        "nombre": "Tomb Raider",
+        "imagen": "https://howlongtobeat.com/games/256px-Tr2011cover.jpg",
+        "url": "https://store.epicgames.com/es-ES/p/Nioh",
+        "plataforma": [
+            "PC",
+            "EpicGames"
+        ]
+    },
+    {
+        "nombre": "Rogue Legacy",
+        "imagen": "https://howlongtobeat.com/games/rogue_legacy_indie.jpg?width=250",
+        "url": "https://store.epicgames.com/es-ES/p/Nioh",
+        "plataforma": [
+            "PC",
+            "EpicGames"
+        ]
+    },
+    {
+        "nombre": "Second Extinction",
+        "imagen": "https://howlongtobeat.com/games/77927_Second_Extinction.jpg",
+        "url": "https://store.epicgames.com/es-ES/p/Nioh",
+        "plataforma": [
+            "PC",
+            "EpicGames"
+        ]
+    },
+    {
+        "nombre": "Severed Steel",
+        "imagen": "https://howlongtobeat.com/games/89786_Severed_Steel.jpg",
+        "url": "https://store.epicgames.com/es-ES/p/Nioh",
+        "plataforma": [
+            "PC",
+            "EpicGames"
+        ]
+    },
+    {
+        "nombre": "Sonic Mania",
+        "imagen": "https://howlongtobeat.com/games/38916_Sonic_Mania.jpg",
+        "url": "https://store.epicgames.com/es-ES/p/Nioh",
+        "plataforma": [
+            "PC",
+            "EpicGames"
+        ]
+    },
+    {
+        "nombre": "Spirit of the North",
+        "imagen": "https://howlongtobeat.com/games/70825_Spirit_of_the_North.jpg",
+        "url": "https://store.epicgames.com/es-ES/p/Nioh",
+        "plataforma": [
+            "PC",
+            "EpicGames"
+        ]
+    },
+    {
+        "nombre": "Super Meat Boy Forever",
+        "imagen": "https://howlongtobeat.com/games/68001_Super_Meat_Boy_Forever.jpg",
+        "url": "https://store.epicgames.com/es-ES/p/Nioh",
+        "plataforma": [
+            "PC",
+            "EpicGames"
+        ]
+    },
+    {
+        "nombre": "The Captain",
+        "imagen": "https://howlongtobeat.com/games/101186_The_Captain.jpg",
+        "url": "https://store.epicgames.com/es-ES/p/the-captain",
+        "plataforma": [
+            "PC",
+            "EpicGames"
+        ]
+    },
+    {
+        "nombre": "The Forest Quartet",
+        "imagen": "https://howlongtobeat.com/games/118257_The_Forest_Quartet.jpg",
+        "url": "https://store.epicgames.com/es-ES/p/the-captain",
+        "plataforma": [
+            "PC",
+            "EpicGames"
+        ]
+    },
+    {
+        "nombre": "The Outer Worlds",
+        "imagen": "https://howlongtobeat.com/games/125175_The_Outer_Worlds_Spacers_Choice_Edition.jpg",
+        "url": "https://store.epicgames.com/es-ES/p/the-captain",
+        "plataforma": [
+            "PC",
+            "EpicGames"
+        ]
+    },
+    {
+        "nombre": "Tunche",
+        "imagen": "https://howlongtobeat.com/games/76004_Tunche.jpg",
+        "url": "https://store.epicgames.com/es-ES/p/tunche",
+        "plataforma": [
+            "PC",
+            "EpicGames"
+        ]
+    },
+    {
+        "nombre": "Watch Dogs",
+        "imagen": "https://howlongtobeat.com/games/watch_dogs.jpg",
+        "url": "https://store.epicgames.com/es-ES/p/watch-dogs",
+        "plataforma": [
+            "PC",
+            "EpicGames"
+        ]
+    },
+    {
+        "nombre": "Wildcat Gun Machine",
+        "imagen": "https://howlongtobeat.com/games/77677_Wildcat_Gun_Machine.jpg",
+        "url": "https://store.epicgames.com/es-ES/p/watch-dogs",
+        "plataforma": [
+            "PC",
+            "EpicGames"
+        ]
     }
+    
 ]
