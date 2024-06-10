@@ -21,8 +21,15 @@
   .rules iframe{
     width: 100%;
   }
+
+  #tienda ul{
+    display: flex;
+    flex-wrap: wrap;
+  }
   #tienda ul li{
     height: 150px;
+    width: 100px;
+    margin: 15px;
   }
   #tienda ul li p:nth-of-type(2){
     display: none;
