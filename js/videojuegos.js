@@ -26,14 +26,15 @@ function cargarSteam() {
       data.sort((a, b) => a.nombre.localeCompare(b.nombre));
       // Recorrer los resultados y generar elementos en el DOM
       const tablaSteam = document.getElementById('tablaSteam');
+      const CountS = document.getElementById('CountS');
       // Contar el número de elementos en el JSON
       const numElementos = data.length;
 
-            // Crear un elemento <p> para mostrar la cantidad de elementos
-            const cantidadElementosParrafo = document.createElement('h2');
-            cantidadElementosParrafo.classList.add('juegosActivos'); // Agregar la clase 'juegosActivos'
-            cantidadElementosParrafo.textContent = `Juegos activos en Steam: ${numElementos}`;
-            tablaSteam.appendChild(cantidadElementosParrafo);
+      // Crear un elemento <p> para mostrar la cantidad de elementos
+      const cantidadElementosParrafo = document.createElement('h2');
+      cantidadElementosParrafo.classList.add('juegosActivos'); // Agregar la clase 'juegosActivos'
+      cantidadElementosParrafo.textContent = `Juegos activos en Steam: ${numElementos}`;
+      CountS.appendChild(cantidadElementosParrafo);
 
       data.map(item => {
         const card = document.createElement('div');
@@ -89,14 +90,15 @@ function cargarEpic() {
       data.sort((a, b) => a.nombre.localeCompare(b.nombre));
       // Recorrer los resultados y generar elementos en el DOM
       const tablaEpic = document.getElementById('tablaEpic');
+      const CountE = document.getElementById('CountE');
       // Contar el número de elementos en el JSON
       const numElementos = data.length;
 
-                  // Crear un elemento <p> para mostrar la cantidad de elementos
-                  const cantidadElementosParrafo = document.createElement('h2');
-                  cantidadElementosParrafo.classList.add('juegosActivos'); // Agregar la clase 'juegosActivos'
-                  cantidadElementosParrafo.textContent = `Juegos activos en Epic: ${numElementos}`;
-                  tablaEpic.appendChild(cantidadElementosParrafo);
+      // Crear un elemento <p> para mostrar la cantidad de elementos
+      const cantidadElementosParrafo = document.createElement('h2');
+      cantidadElementosParrafo.classList.add('juegosActivos'); // Agregar la clase 'juegosActivos'
+      cantidadElementosParrafo.textContent = `Juegos activos en Epic: ${numElementos}`;
+      CountE.appendChild(cantidadElementosParrafo);
 
       data.map(item => {
         const card = document.createElement('div');
