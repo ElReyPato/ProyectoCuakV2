@@ -1,10 +1,8 @@
 [
     {
-        "nombre": "Dante",
-        "tipo": "Lider tipo Roca",
+        "personaje": "Dante",
         "foto": "../../img/medallas/dante.png",
-        "medalla": "../../img/medallas/roca.png",
-        "equipo": [
+        "obj": [
             "frosmoth",
             "tyranitar-mega",
             "cradily",

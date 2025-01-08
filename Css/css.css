@@ -23,11 +23,10 @@
 }
 
 /* -Cosas para todos- */
-html{
-    background-color: var(--colorbackground);
-}
+
 body{
     width: 75%;
+    background-color: var(--colorbackground);
     margin: 0 auto;
 }
 .titulo{
@@ -63,4 +62,36 @@ header{
 }
 a{
     text-decoration: none;
+    color: var(--colortexto2);
+    text-decoration: none;
+}
+
+/* -Listas- */
+ul{
+    display: flex; 
+    align-items: center; 
+    flex-direction: column;
+}
+.opciones {
+    margin: 5px;
+    padding: 10px;
+    width: 100%; /* Ajusta el ancho al 100% del contenedor */
+    min-width: 150px;
+    font-size: 25px;
+    background-color: var(--colortexto);
+    border-color: black;
+    border-style: solid;
+    border-radius: 45px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Media Query para dispositivos móviles */
+@media (max-width: 576px) {
+    .opciones {
+        font-size: 18px; /* Reducir tamaño de fuente en móviles */
+    }
 }

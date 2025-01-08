@@ -1,15 +1,3 @@
-#list{
-    width: 70%;
-    height: auto;
-    margin: 20px auto;
-    border: solid var(--colortexto);
-}
-.titulo_h2{
-    font-family: var(--texto);
-    font-size: 2em;
-    list-style: none;
-}
-
 .tablaJuegos{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Columnas de tamaño mínimo de 300px */
@@ -21,9 +9,7 @@
     font-size: 3em;
     margin: 0;
 }
-#CountN, #CountS, #CountE{
-    font-size: 25px;
-}
+
 .juegos_img {
   border: solid var(--colortexto);
   width: 250px;
@@ -31,27 +17,14 @@
   height: auto; /* Esto garantiza que la imagen mantenga su proporción */
   margin: 5px auto;
 }
-
-.menus{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+.card{
+    background-color: var(--colorbackground);
+    border: none;
 }
 
-.menus>a{
-    font-size: 25px;
-    padding: 5px;
-}
-
-#listadoTier{
-    display: flex;
-    justify-content: center;
-}
 #atras,#alante{
     cursor: pointer;
 }
-
 
 /* #prueba > .videos{
     border: solid var(--colortexto);
@@ -62,13 +35,4 @@
 }
 #prueba{
     column-count: 3;
-} 
-
-
-        <div id="prueba">
-            <iframe class="videos" src="https://www.youtube.com/embed/5SvQ3NrB9VU?si=gXBVVCvBO3gBHRxh" frameborder="0" controls="false"></iframe>
-            <iframe class="videos" src="https://www.youtube.com/embed/5SvQ3NrB9VU?si=gXBVVCvBO3gBHRxh" frameborder="0" controls="false"></iframe>
-            <iframe class="videos" src="https://www.youtube.com/embed/5SvQ3NrB9VU?si=gXBVVCvBO3gBHRxh" frameborder="0" controls="false"></iframe>
-        </div>
-        
-*/
+}  */

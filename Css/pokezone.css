@@ -22,13 +22,18 @@
   background-image: url("../img/pokeball.jpg");
   background-size: cover;
   border-radius: 100%;
-  width: 125px;
-  height: 125px;
+  width: 135px;
+  height: 135px;
 }
 .pokemon-card h3 {
-  color: lightblue;
+  margin: 0;
+  font-size: 25px;
+  color: white; /* Texto con opacidad del 100% */
+  background-color: rgba(88, 88, 88, 0.9); /* Fondo con opacidad del 70% */
   font-weight: lighter;
+  border-radius: 3%;
 }
+
 details{
     border: solid 5px var(--colortexto);
     padding: 15px;
@@ -38,9 +43,7 @@ details{
 }
 .equipos{
     font-size: 35px;
-    text-align: center;
-    list-style: none;
-
+    color: var(--colortexto);
 }
 a h1{
   text-align: center;

@@ -5,52 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../img/Psyduck.png">
 
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
     <link rel="stylesheet" href="../Css/css.css">
     <link rel="stylesheet" href="../Css/jueguitos.css">
-    <link rel="stylesheet" href="../Css/medias.css">
+    <!-- <link rel="stylesheet" href="../Css/medias.css"> -->
     <title>Jueguitos</title>
 </head>
-<body>
+<body class="">
+
     <!-- -Icono de boton para atrás- -->
-    <a href="../index.html">
+    <a href="../index.html" class="d-inline-block p-2">
         <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="back" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M10 3.5a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 1 1 0v2A1.5 1.5 0 0 1 9.5 14h-8A1.5 1.5 0 0 1 0 12.5v-9A1.5 1.5 0 0 1 1.5 2h8A1.5 1.5 0 0 1 11 3.5v2a.5.5 0 0 1-1 0v-2z"/>
             <path fill-rule="evenodd" d="M4.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H14.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3z"/>
         </svg>
     </a>
       
-    <!-- Header (Imagen, Titulo, Menu(Nintendo, Steam, Epic)) -->
-    <header>
-        <img class="Psyduck" src="../img/Psyduck.png">
-        <h1 class="titulo">Jueguitos</h1><br>
+    <!-- Header (Imagen, Titulo, Menu) -->
+    <header class="text-center mb-4">
+        <img class="Psyduck mb-2" src="../img/Psyduck.png">
+        <h1 class="titulo">Jueguitos</h1>
 
-        <ul class="menus">
-            <a href="./pokemon.html"><il>| Pokémon |</il></a>
-            <a href="#NS"><il>| Nintendo Switch |</il></a>
-            <a href="#ST"><il>| Steam |</il></a>
-            <a href="#EG"><il>| EpicGames |</il></a>
+        <ul class="menus nav d-flex justify-content-center flex-wrap col-12">
+            <li class="nav-item opciones col-6 col-md-3"><a href="#NS" class="nav-link">| Nintendo Switch |</a></li>
+            <li class="nav-item opciones col-6 col-md-3"><a href="#ST" class="nav-link">| Steam |</a></li>
+            <li class="nav-item opciones col-6 col-md-3"><a href="#EG" class="nav-link">| EpicGames |</a></li>
+            <li class="nav-item opciones col-6 col-md-3"><a href="./lol.html" class="nav-link">| LeagueOfLegends |</a></li>
         </ul>
+        
     </header>
 
-
-    <div id="contenedor">
-        <div id="listadoTier">
-            <!-- <script>videojuegos()</script> -->
+    <div id="contenedor" class="container">
+        <div id="listadoTier" class="d-flex justify-content-between align-items-center">
             <h2 class="titulo_h2" id="atras">◄</h2> 
             <h2 class="titulo_h2" id="nTier"></h2>
             <h2 class="titulo_h2" id="alante">►</h2>  
         </div>
-        <img id="list" src="" alt="">
+        <img id="list" src="" alt="" class="img-fluid mx-auto d-block">
         
-        <hr id="NS"><br>
-        <details>
+        <hr id="NS">
+        <details class="d-flex justify-content-center align-items-center">
             <summary class="titulo_plat">Nintendo</summary>
             <div id="CountN"></div>
             <div id="tablaNintendo" class="tablaJuegos">
                 <!-- Tabla con los juegos -->
             </div>
         </details>
-        <hr id="ST"><br>
+        <hr id="ST">
         <details>
             <summary class="titulo_plat">Steam</summary>
             <div id="CountS"></div>
@@ -58,7 +61,7 @@
                 <!-- Tabla con los juegos -->
             </div>
         </details>
-        <hr id="EG"><br>
+        <hr id="EG">
         <details>
             <summary class="titulo_plat">EpicGames</summary>
             <div id="CountE"></div>
@@ -66,10 +69,8 @@
                 <!-- Tabla con los juegos -->
             </div>
         </details>
-        
-
-    
     </div>
-    <script  src="../js/videojuegos.js"></script>
+
+    <script src="../js/videojuegos.js"></script>
 </body>
 </html>

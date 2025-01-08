@@ -1,5 +1,5 @@
 const fetchPokemon = async (nombre) => {
-    const url = `https://pokeapi.co/api/v2/pokemon/${nombre}/`;
+    const url = `https://pokeapi.co/api/v2/pokemon${nombre}/`;
     const response = await fetch(url);
 
     if (response.ok) {
@@ -40,7 +40,7 @@ const mostrarLiderEnHTML = async (lider, containerId) => {
     const liderContainer = document.getElementById(containerId);
 
     const liderCard = document.createElement('div');
-    liderCard.classList.add('lider-card');
+    liderCard.classList.add('lider-card', 'text-center');
 
     const foto = document.createElement('img');
     foto.src = lider.foto;
@@ -49,7 +49,7 @@ const mostrarLiderEnHTML = async (lider, containerId) => {
     const nombre = document.createElement('h2');
     nombre.textContent = lider.nombre;
 
-    const tipo = document.createElement('p');
+    const tipo = document.createElement('h2');
     tipo.textContent = lider.tipo;
 
     const medalla = document.createElement('img');
@@ -58,8 +58,8 @@ const mostrarLiderEnHTML = async (lider, containerId) => {
 
     liderCard.appendChild(foto);
     liderCard.appendChild(medalla);
-    liderCard.appendChild(nombre);
     liderCard.appendChild(tipo);
+    liderCard.appendChild(nombre);
 
     liderContainer.appendChild(liderCard);
 
@@ -75,7 +75,7 @@ const mostrarLiderEnHTML = async (lider, containerId) => {
 
         if (pokemon) {
             const pokemonCard = document.createElement('div');
-            pokemonCard.classList.add('pokemon-card');
+            pokemonCard.classList.add('pokemon-card', 'd-flex', 'flex-column', 'justify-content-center', 'align-items-center', 'm-2' );
 
             const nombre = document.createElement('h3');
             nombre.textContent = pokemon.name.charAt(0).toUpperCase() + pokemon.name.slice(1);
@@ -94,14 +94,14 @@ const mostrarLiderEnHTML = async (lider, containerId) => {
 
 const cargarLideresPokemon = async () => {
     try {
-        const response = await fetch('../../js/lideres.json');
+        const response = await fetch('../../js/Json/lideres.json');
         const lideres = await response.json();
 
         for (let i = 0; i < lideres.length; i++) {
             const containerId = `lider-container-${i}`;
             const newContainer = document.createElement('div');
             newContainer.id = containerId;
-            newContainer.classList.add('lider-container');
+            newContainer.classList.add('lider-container', 'd-flex', 'flex-column', 'justify-content-center', 'align-items-center');
 
             document.getElementById('main').appendChild(newContainer);
 

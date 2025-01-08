@@ -5,33 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="icon" href="../img/Psyduck.png">
+    
+    <!-- Enlace a Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
     <link rel="stylesheet" href="../Css/css.css">
     <link rel="stylesheet" href="../Css/pokezone.css">
     <link rel="stylesheet" href="../Css/medias.css">
     <title>Jueguitos</title>
 
 </head>
-<body>
-    <!-- -Icono de boton para atrás- -->
-    <a href="./jueguitos.html">
+<body class="">
+
+    <!-- Botón para atrás -->
+    <a href="../index.html" class="btn">
         <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="back" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M10 3.5a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 1 1 0v2A1.5 1.5 0 0 1 9.5 14h-8A1.5 1.5 0 0 1 0 12.5v-9A1.5 1.5 0 0 1 1.5 2h8A1.5 1.5 0 0 1 11 3.5v2a.5.5 0 0 1-1 0v-2z"/>
             <path fill-rule="evenodd" d="M4.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H14.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3z"/>
         </svg>
     </a>
       
-    <!-- Header (Imagen, Titulo, Menu(Nintendo, Steam, Epic)) -->
-    <header>
-        <img class="Psyduck" src="../img/pokeball.jpg" onmouseover="premio()">
-        <h1 class="titulo">PokéZone</h1><br>
+    <!-- Header -->
+    <header class="text-center">
+        <img class="Psyduck rounded-circle" src="../img/pokeball.jpg" onmouseover="premio()">
+        <h1 class="titulo display-4">PokéZone</h1><br>
     </header>
+    
+    <!-- Lista de opciones -->
+    <ul class="menus nav d-flex justify-content-center flex-wrap col-12">
+        <li class="opciones col-8 col-md-5">
+            <a href="./Pokemon/lideres.html" >Lideres</a>
+        </li>
+        <li class="opciones col-8 col-md-5">
+            <a href="./Pokemon/pokereto.html">PokeReto</a>
+        </li>
+        
+    </ul>
 
-    <a href="./Pokemon/pokereto.html"><h1>PokeReto</h1></a>
-
-    <details >
-        <summary class="equipos"><< Equipos >></summary>
-        <div id="equipos"></div>
+    <!-- Detalles de Equipos -->
+    <details class="d-flex">
+        <summary class="equipos text-center "> Equipos </summary>
+        <div id="equipos" class="mt-3"></div>
     </details>
+
+    <!-- Enlace a Bootstrap JS y jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="../js/pokeapi.js"></script>
 
 </body>

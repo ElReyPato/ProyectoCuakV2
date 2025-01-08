@@ -17,7 +17,7 @@ const requestOptions = {
 
 
 function cargarSteam() {
-  fetch('../js/steam.json')
+  fetch('../js/Json/steam.json')
     .then(respuesta => respuesta.json()) //Indicamos el formato en que se desea obtener la información
     .then(data => {
 
@@ -49,7 +49,7 @@ function cargarSteam() {
     .catch(error => console.log('Hubo un error : ' + error.message))
 }
 function cargarNintendo() {
-  fetch('../js/nintendo.json')
+  fetch('../js/Json/nintendo.json')
     .then(respuesta => respuesta.json()) //Indicamos el formato en que se desea obtener la información
     .then(data => {
 
@@ -81,7 +81,7 @@ function cargarNintendo() {
     .catch(error => console.log('Hubo un error : ' + error.message))
 }
 function cargarEpic() {
-  fetch('../js/epic.json')
+  fetch('../js/Json/epic.json')
     .then(respuesta => respuesta.json()) //Indicamos el formato en que se desea obtener la información
     .then(data => {
 

@@ -1,0 +1,16 @@
+[
+    {
+        "nombre": "Lucas",
+        "tipo": "Hidrologo",
+        "foto": "../../img/medallas/lucas.png",
+        "medalla": "../../img/medallas/lider.png",
+        "equipo": [
+            "/porygon-z",
+            "/swampert-mega",
+            "/902",
+            "/primarina",
+            "/omastar",
+            "/iron-bundle"
+        ]
+    }
+]
